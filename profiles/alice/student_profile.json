@@ -2,11 +2,11 @@
   "student_id": "alice_001",
   "name": "Alice",
   "module_id": "mod_05_blockchain",
-  "last_updated": "2026-04-01T23:27:33.887220+00:00",
+  "last_updated": "2026-04-01T23:53:23.429839+00:00",
   "session_state": {
     "energy_checkin": "high",
-    "sessions_completed": 2,
-    "last_session_at": "2026-04-01T23:27:33.887205+00:00"
+    "sessions_completed": 3,
+    "last_session_at": "2026-04-01T23:53:23.429830+00:00"
   },
   "concept_map": {
     "digital_signatures": {
@@ -16,10 +16,10 @@
       "source_notes": null
     },
     "cryptography_introduction": {
-      "evidence_summary": null,
-      "confidence": 0.0,
-      "status": "unseen",
-      "source_notes": null
+      "evidence_summary": "Multiple Level 6 moments early in the session: Alice volunteered the key-as-lock-and-unlock concept, introduced public/private keys without prompting, and produced an unprompted three-part taxonomy (symmetric/asymmetric/hybrid) that extended beyond the Companion's question. Level 5 evidence on the transformation mechanism (AES-256 reference). Trajectory strongly improving as prior knowledge activated — no decline observed.",
+      "confidence": 0.62,
+      "status": "shaky",
+      "source_notes": "Entered the session with a working mental model of cryptography as a keyed reversible transformation — named AES-256, introduced the symmetric/asymmetric/hybrid taxonomy independently, and correctly described the key's dual role. The foundational concept is well-grounded. Next session should probe whether she can explain *why* a key-based algorithm is secure against someone who knows the algorithm but not the key (Kerckhoffs's principle direction), to test whether her understanding extends beyond mechanics to security reasoning."
     },
     "crypto_wallets": {
       "evidence_summary": null,
@@ -28,10 +28,10 @@
       "source_notes": null
     },
     "symmetric_cryptography": {
-      "evidence_summary": null,
-      "confidence": 0.0,
-      "status": "unseen",
-      "source_notes": null
+      "evidence_summary": "Level 6 evidence on the definitional level — Alice produced the symmetric/hybrid taxonomy independently without prompting. Level 2 on the key-distribution limitation: correctly identified it as a problem she couldn't solve, then passively acknowledged the explanation. The hybrid key-exchange mechanism was explained but never independently tested. Trajectory peaked early then flattened.",
+      "confidence": 0.48,
+      "status": "shaky",
+      "source_notes": "Can define symmetric cryptography accurately and independently situate it within a symmetric/asymmetric/hybrid framework. Correctly identified the key-distribution problem as the core limitation but could not articulate the solution independently. The hybrid key-exchange mechanism (asymmetric wraps symmetric key) was received passively. Next session should ask Alice to walk through — without prompting — how two strangers would establish a symmetric session key over an insecure channel, to test whether the hybrid exchange flow was retained."
     },
     "distributed_hash_tables": {
       "evidence_summary": null,
@@ -64,10 +64,10 @@
       "source_notes": null
     },
     "hash_functions": {
-      "evidence_summary": null,
-      "confidence": 0.0,
-      "status": "unseen",
-      "source_notes": null
+      "evidence_summary": "Level 5 across all core properties (one-way, avalanche effect, fixed output) with no scaffolding — all recalled from prior sessions. Level 6 on the SHA-256/AES-256 classification: Alice independently deduced which algorithm belongs to which category based on the conceptual distinction, without being told. Stumble at the synthesis step: produced incorrect hash-signature flow (hash of the signature rather than signature of the hash) and reintroduced the anonymity framing. Recovered to correct synthesis summary after Companion correction. Weak persisting misconception on the integration flow.",
+      "confidence": 0.52,
+      "status": "shaky",
+      "source_notes": "Core hash properties (irreversibility, avalanche, fixed output) are durably retained from prior sessions — demonstrated at Level 5 without scaffolding. Independently classified SHA-256 vs AES-256 from first principles. Weakness: the hash-then-sign integration flow was inverted (described as hashing the signature rather than signing the hash), and the anonymity framing reappeared in that context. Next session should ask Alice to narrate the full signing-and-verification flow step by step — who does what, in what order — to confirm whether the correct sequence (hash the message → sign the hash → receiver decrypts signature → recalculates hash → compares) is now retained."
     },
     "smart_contracts": {
       "evidence_summary": null,
@@ -172,10 +172,10 @@
       "source_notes": null
     },
     "asymmetric_cryptography": {
-      "evidence_summary": null,
-      "confidence": 0.0,
-      "status": "unseen",
-      "source_notes": null
+      "evidence_summary": "Level 6 on the structural mechanics (introduced public/private key taxonomy unprompted); Level 5 on the public/private role assignment. Level 2 on the inverted use (digital signature): required two scaffolding questions after an incorrect answer (anonymity claim). Misconception on anonymity was resolved at surface level — Alice restated the correction without explaining why her original reasoning was wrong. Trajectory uneven: strong start, dip at inverted-use, recovery on IP-identity application.",
+      "confidence": 0.5,
+      "status": "shaky",
+      "source_notes": "Understands the two-key structure and public/private role assignment independently. The inverted-use (private encrypts → public decrypts = digital signature) required scaffolding and produced an initial misconception that anonymity is guaranteed. Alice restated the correction ('garante autenticidade e não anonimato') but did not explain why — resolution was surface-level. Next session should ask Alice to explain, without prompting, why using your private key to sign a message proves your identity — specifically asking her to explain what would happen if someone tried to forge your signature without your private key."
     },
     "blockchain_fundamentals": {
       "evidence_summary": "Block structure reproduced at Level 5 without scaffolding, confirming retention. The targeted gap from the prior session (distributed immutability across nodes) showed improvement — student reached the correct answer — but required scaffolding on the critical 51% + multi-node control step. Student's initial explanation confused intra-chain hash cascade with cross-node attack difficulty.",
