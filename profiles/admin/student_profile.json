@@ -1,12 +1,217 @@
 {
-  "student_id": "admin_001",
-  "name": "Admin",
+  "student_id": "gui_001",
+  "name": "Gui",
   "module_id": "mod_05_blockchain",
-  "last_updated": null,
+  "last_updated": "2026-03-30T22:34:21.416576+00:00",
   "session_state": {
     "energy_checkin": "high",
-    "sessions_completed": 0,
-    "last_session_at": null
+    "sessions_completed": 6,
+    "last_session_at": "2026-03-30T22:34:21.416527+00:00"
   },
-  "concept_map": {}
+  "concept_map": {
+    "distributed_systems_fundamentals": {
+      "evidence_summary": "Student demonstrated Level 5 independent reasoning on the underlying tradeoff concept (availability/confidentiality) before CAP was formally introduced, but could not apply or retain the formal CAP theorem after the Companion explained it — performance dropped to Level 2 and Level 1 for the named concept, and the student self-reported not retaining the acronyms. Trajectory declined once the formal theorem was introduced, though the underlying intuition was already present.",
+      "confidence": 0.65,
+      "status": "shaky",
+      "source_notes": "Independently articulates availability/confidentiality tradeoffs with concrete examples (more servers = more attack surface), but does not retain CAP as a formal framework — self-reported forgetting the acronym. Next session should probe whether the student can independently map a distributed system scenario to the C-vs-A choice without being told which theorem applies, and whether they can name the three CAP properties unprompted."
+    },
+    "information_security_fundamentals": {
+      "evidence_summary": "Strong upward trajectory from prior score of 0.28: student demonstrated Level 5 independent knowledge of the full CIA triad with concrete implementation examples, Level 4 self-correction on the authentication/authorization distinction, and Level 6 generative synthesis connecting public-key authentication to role-based authorization in a blockchain system. One weak persisting concern: the integrity-as-backup conflation was corrected by the Companion but not reformulated in the student's own words.",
+      "confidence": 0.62,
+      "status": "shaky",
+      "source_notes": "Has solid independent working knowledge of CIA triad and correctly applies availability/confidentiality tradeoffs. Self-corrected the auth/authz distinction and extended it independently to a blockchain access-control model. Residual gap: integrity was initially framed as backup/loss-prevention rather than unauthorized-alteration prevention — the Companion corrected this but the student did not reformulate it independently. Next session should open by asking the student to define integrity without scaffolding to verify whether the correction held."
+    },
+    "blockchain_fundamentals": {
+      "evidence_summary": "Level 6 evidence from the session's opening exchange — student independently explained hash-chain immutability, PoW cost, and cascading invalidation — and Level 6 again when independently generating the axolotes use case as a novel non-financial application of trustless multi-party record-keeping. The prior session's residual financial-utility misconception was operationally resolved through self-generated demonstration, though not explicitly named as a correction. Trajectory was uniformly strong throughout.",
+      "confidence": 0.78,
+      "status": "solid",
+      "source_notes": "Owns the core blockchain value proposition — can independently explain structural immutability, PoW cost, and trustless multi-party record-keeping across novel non-financial domains. The prior financial-utility misconception appears behaviorally resolved through spontaneous generation of a non-financial use case. Next session can advance to deeper mechanics (consensus, chain forks, finality) without re-establishing fundamentals."
+    },
+    "blockchain_types": {
+      "evidence_summary": "Returned concept where the prior session's targeted test (supply chain with competing manufacturers) was applied independently and correctly, with bilateral reasoning for rejecting public and private options. The consortium term — previously unknown — was recalled and applied correctly. A minor imprecision on private blockchain scope (one person vs. one organization) was noted and corrected but not a structured misconception. Trajectory was positive throughout.",
+      "confidence": 0.62,
+      "status": "shaky",
+      "source_notes": "Can independently map use cases to the three-type taxonomy and articulate the reasoning for consortium selection in a competitive multi-party setting. Private blockchain was slightly misdefined as single-person rather than single-organization control — verify this distinction holds in the next session. Ready to extend to more nuanced governance questions: e.g., what happens when a consortium member wants to leave, or how voting rights are structured."
+    },
+    "byzantine_generals_problem": {
+      "evidence_summary": null,
+      "confidence": 0,
+      "status": "unseen",
+      "source_notes": null
+    },
+    "consensus_mechanisms": {
+      "evidence_summary": null,
+      "confidence": 0,
+      "status": "unseen",
+      "source_notes": null
+    },
+    "proof_of_work": {
+      "evidence_summary": null,
+      "confidence": 0,
+      "status": "unseen",
+      "source_notes": null
+    },
+    "mining": {
+      "evidence_summary": null,
+      "confidence": 0,
+      "status": "unseen",
+      "source_notes": null
+    },
+    "bitcoin_as_case_study": {
+      "evidence_summary": null,
+      "confidence": 0,
+      "status": "unseen",
+      "source_notes": null
+    },
+    "blockchain_trilemma": {
+      "evidence_summary": null,
+      "confidence": 0,
+      "status": "unseen",
+      "source_notes": null
+    },
+    "game_theory_and_trust": {
+      "evidence_summary": null,
+      "confidence": 0,
+      "status": "unseen",
+      "source_notes": null
+    },
+    "cryptography_introduction": {
+      "evidence_summary": "Student entered with prior working knowledge and demonstrated Level 5 independent reasoning from the session's opening (encryption as data obfuscation requiring a key, symmetric vs. asymmetric distinction) and Level 6 generative reasoning mid-session (independently connecting the directional inversion of asymmetric cryptography to integrity/signing without prompting). Trajectory was uniformly strong with no misconceptions identified for this framing.",
+      "confidence": 0.68,
+      "status": "shaky",
+      "source_notes": "Arrived with a functional mental model of cryptography as a key-based data-obfuscation tool and independently connected it to both confidentiality and integrity goals. Generated the signing-as-inversion insight without scaffolding and synthesized encryption + hash into a complete document security solution unprompted. Next session can build directly on this foundation toward deeper mechanics — key exchange protocols, certificate authorities, or the formal distinction between encryption and signing — without re-establishing the basics."
+    },
+    "hash_tables": {
+      "evidence_summary": null,
+      "confidence": 0,
+      "status": "unseen",
+      "source_notes": null
+    },
+    "distributed_hash_tables": {
+      "evidence_summary": null,
+      "confidence": 0,
+      "status": "unseen",
+      "source_notes": null
+    },
+    "solidity_mappings": {
+      "evidence_summary": null,
+      "confidence": 0,
+      "status": "unseen",
+      "source_notes": null
+    },
+    "ethereum_platform": {
+      "evidence_summary": null,
+      "confidence": 0,
+      "status": "unseen",
+      "source_notes": null
+    },
+    "smart_contracts": {
+      "evidence_summary": null,
+      "confidence": 0,
+      "status": "unseen",
+      "source_notes": null
+    },
+    "solidity_basics": {
+      "evidence_summary": null,
+      "confidence": 0,
+      "status": "unseen",
+      "source_notes": null
+    },
+    "blockchain_dev_tools": {
+      "evidence_summary": null,
+      "confidence": 0,
+      "status": "unseen",
+      "source_notes": null
+    },
+    "crypto_wallets": {
+      "evidence_summary": null,
+      "confidence": 0,
+      "status": "unseen",
+      "source_notes": null
+    },
+    "decentralized_applications": {
+      "evidence_summary": null,
+      "confidence": 0,
+      "status": "unseen",
+      "source_notes": null
+    },
+    "sequence_diagrams": {
+      "evidence_summary": null,
+      "confidence": 0,
+      "status": "unseen",
+      "source_notes": null
+    },
+    "hash_functions": {
+      "evidence_summary": "Started at Level 0 (genuine knowledge gap — could not identify hash as an alternative to encryption), but after a single analogical prompt immediately recalled and independently applied the concept (Level 3 → Level 5), then demonstrated Level 5 on the salt/collision problem and Level 6 in the final document synthesis. One weak Level 2 error (partial hash comparison) was self-corrected with explanation after one follow-up question. Strongly improving trajectory across the second half.",
+      "confidence": 0.58,
+      "status": "shaky",
+      "source_notes": "Knows hash functions as one-way transformations and correctly applies them to password storage, file integrity, and multi-concept security architectures. Independently anticipated the salt concept and correctly described the avalanche effect by name-and-behavior (though not the formal term). The concept was not spontaneously accessible at session start — required an analogical trigger to activate prior knowledge. Next session should open with an unprompted question (e.g., 'how would you store passwords securely?') to verify the concept is now independently retrievable without the analogy."
+    },
+    "symmetric_cryptography": {
+      "evidence_summary": "Student demonstrated Level 5 independent reasoning on symmetric cryptography twice — correctly identifying the shared-key model and independently naming the key distribution problem as its core weakness — without any scaffolding. Coverage was brief as the session moved toward asymmetric, but all evidence moments were independent and correct. No misconceptions identified.",
+      "confidence": 0.55,
+      "status": "shaky",
+      "source_notes": "Can independently articulate the symmetric model (shared key, both parties must possess it) and correctly identifies key distribution as its fundamental weakness. Applied this knowledge to reframe a novel 'two private keys' proposal as equivalent to the symmetric problem. Coverage was limited to the core concept — mechanics like block vs. stream ciphers, key sizes, or specific algorithms were not explored. Next session should probe whether the student can describe a concrete scenario where symmetric cryptography is appropriate and why, to verify understanding extends beyond the weakness framing."
+    },
+    "asymmetric_cryptography": {
+      "evidence_summary": "Early misconception (sender uses private key to encrypt for confidentiality, rather than recipient's public key) was partially resolved — the student demonstrated correct directional usage in subsequent exchanges but did not verbally articulate why the earlier reasoning was wrong. Later evidence was Level 5 (digital signing as intentional directional inversion) and Level 6 (combined asymmetric + hash solution). Trajectory improved strongly after the early misconception.",
+      "confidence": 0.52,
+      "status": "shaky",
+      "source_notes": "Understands the two-directional logic of asymmetric cryptography and correctly distinguishes encryption (recipient's public key encrypts, recipient's private key decrypts) from signing (sender's private key signs, sender's public key verifies) as inverse operations. The initial key-direction confusion was corrected in behavior but not explicitly verbalized — the student said 'meu exemplo faz bastante sentido' even after being corrected, suggesting partial residual resistance. Next session should open by asking the student to walk through both directions (encrypt for confidentiality, sign for authenticity) unprompted to verify the distinction is now stable and accessible."
+    },
+    "digital_signatures": {
+      "evidence_summary": "Session ended after two student turns — the only substantive response ('única e não fungível') was vague analogical language that required immediate redirection (Level 2 at best), and the closing diagnostic question about which key to use for signing went unanswered (Level 0). No independent reasoning about the cryptographic mechanism was observed.",
+      "confidence": 0.08,
+      "status": "weak",
+      "source_notes": "Concept was introduced via physical signature analogy but the session ended before the student engaged with the cryptographic mechanism at all. The 'não fungível' response suggests loose borrowing from blockchain vocabulary rather than reasoning about digital signatures. Next session must resume from the unanswered question: ask the student which key (public or private) they would use to sign a document and why, before progressing to the hash-then-sign structure. The student's prior working knowledge of asymmetric key directions (from the asymmetric_cryptography profile) may activate quickly once the question is posed — the prerequisite knowledge is there but the connection to signing has not been made yet."
+    },
+    "evm_and_virtualization": {
+      "evidence_summary": null,
+      "confidence": 0,
+      "status": "unseen",
+      "source_notes": null
+    },
+    "smart_contract_security": {
+      "evidence_summary": null,
+      "confidence": 0,
+      "status": "unseen",
+      "source_notes": null
+    },
+    "software_testing_and_quality": {
+      "evidence_summary": null,
+      "confidence": 0,
+      "status": "unseen",
+      "source_notes": null
+    },
+    "computer_networks_fundamentals": {
+      "evidence_summary": null,
+      "confidence": 0,
+      "status": "unseen",
+      "source_notes": null
+    },
+    "tor_and_anonymity": {
+      "evidence_summary": null,
+      "confidence": 0,
+      "status": "unseen",
+      "source_notes": null
+    },
+    "p2p_networks": {
+      "evidence_summary": null,
+      "confidence": 0,
+      "status": "unseen",
+      "source_notes": null
+    },
+    "distributed_system_architectures": {
+      "evidence_summary": null,
+      "confidence": 0,
+      "status": "unseen",
+      "source_notes": null
+    },
+    "ipfs_and_nfts": {
+      "evidence_summary": null,
+      "confidence": 0,
+      "status": "unseen",
+      "source_notes": null
+    }
+  }
 }
