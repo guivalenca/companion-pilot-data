@@ -2,11 +2,11 @@
   "student_id": "danilo_001",
   "name": "Danilo",
   "module_id": "mod_05_blockchain",
-  "last_updated": "2026-04-01T18:33:37.681801+00:00",
+  "last_updated": "2026-04-01T20:06:46.972519+00:00",
   "session_state": {
     "energy_checkin": "high",
-    "sessions_completed": 1,
-    "last_session_at": "2026-04-01T17:31:13.038934+00:00"
+    "sessions_completed": 2,
+    "last_session_at": "2026-04-01T20:06:46.972508+00:00"
   },
   "concept_map": {
     "digital_signatures": {
@@ -46,10 +46,10 @@
       "source_notes": null
     },
     "byzantine_generals_problem": {
-      "evidence_summary": null,
-      "confidence": 0.0,
-      "status": "unseen",
-      "source_notes": null
+      "evidence_summary": "Student produced two Level 5 responses without scaffolding: independently arrived at the majority-threshold intuition, and invoked the 2/3 threshold by name before the Companion stated it. Also independently identified financial incentive as the motive for Byzantine behavior. One passive acknowledgment moment mid-session was the weakest point. Trajectory improved across the session.",
+      "confidence": 0.45,
+      "status": "shaky",
+      "source_notes": "Independently invoked the 2/3 threshold and identified financial incentives as the driver of dishonest behavior — both unprompted. Did not demonstrate the procedural mechanics (how a BFT algorithm actually produces consensus across rounds), and the 1/3 fault tolerance limit was supplied by the Companion rather than derived by the student. Next session should ask the student to work through a four-node example with one traitor to test whether the threshold reasoning transfers to procedure."
     },
     "sequence_diagrams": {
       "evidence_summary": null,
@@ -118,10 +118,10 @@
       "source_notes": null
     },
     "consensus_mechanisms": {
-      "evidence_summary": null,
-      "confidence": 0.0,
-      "status": "unseen",
-      "source_notes": null
+      "evidence_summary": "Student could not arrive at PoW or PoS independently (Level 2 early, required the Companion to introduce both). After introduction, demonstrated Level 5 reasoning: correctly connected fraud attempts to economic loss across both mechanisms, and independently mapped PoW vs. PoS trade-offs including the PoS centralization concern. Trajectory improved from scaffolded start to independent analysis after concept introduction.",
+      "confidence": 0.4,
+      "status": "shaky",
+      "source_notes": "Could not generate the PoW/PoS mechanisms without the Companion introducing them, but once introduced, correctly identified the PoS centralization-of-power concern independently — a non-trivial insight. Summary of PoS as 'mais rede, mais poder' slightly imprecise (stake, not network size). Next session should test whether the student can name and explain both mechanisms from scratch, and ask them to construct a scenario where PoS centralization creates a specific problem."
     },
     "information_security_fundamentals": {
       "evidence_summary": "Level 5 on integrity, authentication, and confidentiality (all independent, all unprompted); Level 6 on the self-generated hash-dependency model; Level 3 recovery on hash verification after an incorrect inversion assumption. Trajectory improved from one scaffolded moment to consistent independence. Weak misconception about hash invertibility was functionally resolved but not theoretically explained.",
@@ -136,16 +136,16 @@
       "source_notes": null
     },
     "blockchain_trilemma": {
-      "evidence_summary": null,
-      "confidence": 0.0,
-      "status": "unseen",
-      "source_notes": null
+      "evidence_summary": "One strong Level 5 moment (independently traced scalability → synchronization risk → security risk), followed by a weak persisting misconception (decentralization reduces security via reversibility framing), followed by Level 2 scaffolded recovery. Trajectory mixed; the misconception was corrected by the Companion but not resolved by the student.",
+      "confidence": 0.28,
+      "status": "weak",
+      "source_notes": "Conflated decentralization with reduced security by importing the reversibility framing from prior sessions — stated 'descentralização = falta de segurança,' which inverts the correct relationship. Companion corrected this, but the student's recovery was a scaffolded echo. Can trace the scalability-security tension independently but does not yet have a stable model of where decentralization sits in the trilemma. Next session should ask the student to explain the trilemma in their own words before any scaffolding, specifically probing the decentralization-scalability (not security) link."
     },
     "game_theory_and_trust": {
-      "evidence_summary": null,
-      "confidence": 0.0,
-      "status": "unseen",
-      "source_notes": null
+      "evidence_summary": "Student produced Level 5 reasoning on detection probability independently, reached penalty logic after one scaffolded prompt, and generated a compressed but accurate synthesis ('o desonesto sai no prejuízo') that qualifies as Level 6 — their own formulation of the rational-choice incentive structure. Trajectory improved; the generative closing synthesis is the strongest signal.",
+      "confidence": 0.5,
+      "status": "shaky",
+      "source_notes": "Student synthesized the game-theoretic incentive logic independently as 'o desonesto sai no prejuízo' — a correct compressed formulation that was their own, not the Companion's phrasing. Reasoning about penalty was only partially arrived at independently (required one scaffolding prompt to reach the economic cost angle). Next session should probe whether the student can articulate the distinction between 'hard to get away with' (detection) and 'not worth trying' (economic penalty) as separate mechanisms, since the session showed the student defaults to the detection framing first."
     },
     "software_testing_and_quality": {
       "evidence_summary": null,
@@ -178,10 +178,10 @@
       "source_notes": null
     },
     "blockchain_fundamentals": {
-      "evidence_summary": "Consistent Level 5 throughout the blockchain section: student correctly described chain-break detection, the cascading hash incompatibility mechanism, and the economic disincentive of proof of work — all independently and without scaffolding. Trajectory was flat-strong with clear transfer from information security concepts.",
-      "confidence": 0.55,
+      "evidence_summary": "Session opened with a direct test of the prior session's noted gap (PoW cost mechanism). Student produced Level 1 restatement of the chain-break effect, then a Level 2 response with a reactivated hash-invertibility misconception ('decifrar'), then a Level 2 response with an incorrect target description ('igual ao id do bloco'). All corrections were supplied by the Companion. Trajectory was flat-weak; the prior session score of 0.55 is not supported by this session's evidence.",
+      "confidence": 0.42,
       "status": "shaky",
-      "source_notes": "Correctly reasoned that altering one block requires rewriting all subsequent blocks, and independently concluded that high per-block computational cost makes fraud economically irrational. Understanding appears to be genuinely integrated rather than compartmentalized. Next session should test whether the student can explain what specifically makes rewriting blocks expensive (i.e., what proof of work actually requires computationally) — the mechanism was named but not detailed."
+      "source_notes": "The hash invertibility misconception (framing proof-of-work as 'deciphering' a hash) persisted from Session 1 and reappeared unprompted. Student described the brute-force iteration correctly but named the target incorrectly — 'matching the block ID' rather than 'satisfying a leading-zeros condition.' Next session should ask the student to explain step-by-step what a miner does when solving a block, without any scaffolding, before introducing new material."
     },
     "blockchain_dev_tools": {
       "evidence_summary": null,
