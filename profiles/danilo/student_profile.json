@@ -1,0 +1,12 @@
+{
+  "student_id": "danilo_001",
+  "name": "Danilo",
+  "module_id": "mod_05_blockchain",
+  "last_updated": "2026-04-01T17:31:13.038946+00:00",
+  "session_state": {
+    "energy_checkin": "high",
+    "sessions_completed": 1,
+    "last_session_at": "2026-04-01T17:31:13.038934+00:00"
+  },
+  "concept_map": {}
+}
