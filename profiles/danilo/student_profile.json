@@ -2,18 +2,18 @@
   "student_id": "danilo_001",
   "name": "Danilo",
   "module_id": "mod_05_blockchain",
-  "last_updated": "2026-04-01T21:04:01.131644+00:00",
+  "last_updated": "2026-04-01T21:59:35.560674+00:00",
   "session_state": {
     "energy_checkin": "high",
-    "sessions_completed": 3,
-    "last_session_at": "2026-04-01T21:04:01.131630+00:00"
+    "sessions_completed": 4,
+    "last_session_at": "2026-04-01T21:59:35.560659+00:00"
   },
   "concept_map": {
     "digital_signatures": {
-      "evidence_summary": null,
-      "confidence": 0.0,
-      "status": "unseen",
-      "source_notes": null
+      "evidence_summary": "Multiple Level 5 independent moments (efficiency rationale, confidentiality limitation) and one solid procedural reconstruction after minimal scaffolding, producing an improving trajectory across the session. A weak persisting misconception about the internal verification mechanics (what exactly is 'decrypted' in the comparison step) was partially addressed but not self-corrected by the student.",
+      "confidence": 0.48,
+      "status": "shaky",
+      "source_notes": "Arrived at the session with prior asymmetric-cryptography knowledge that let them produce a near-complete description unprompted. Correctly identified the efficiency rationale for signing the hash (not the message) and independently stated that signatures don't guarantee confidentiality. Verification mechanics are slightly muddled — described 'decrypting the hash of the transaction' rather than the cleaner model of decrypting the signature to recover the signer's hash, then independently hashing the received message and comparing. Next session should ask the student to walk through verification step by step without scaffolding, specifically probing what the two objects being compared are and where each comes from."
     },
     "cryptography_introduction": {
       "evidence_summary": "Student showed genuine Level 5 independence early (encryption definition, hash/encryption distinction), then regressed into a key-as-hash misconception requiring multiple scaffolding steps to resolve, closing with passive acknowledgment. Trajectory was declining after the early peak — the session probed deeper and the student's independent understanding did not hold.",
@@ -94,10 +94,10 @@
       "source_notes": null
     },
     "bitcoin_as_case_study": {
-      "evidence_summary": null,
-      "confidence": 0.0,
-      "status": "unseen",
-      "source_notes": null
+      "evidence_summary": "Initial incorrect reasoning (PoW necessary even in permissioned chains) was reversed after one scaffolding question, with the student completing the correct reasoning independently — articulating that known identities make PoW unnecessary and that other audit mechanisms suffice. Self-correction was substantive, not just answer replacement, but was triggered by a single prompt rather than arising unprompted.",
+      "confidence": 0.38,
+      "status": "shaky",
+      "source_notes": "Initially imported PoW-as-always-necessary framing before recognizing the identity/accountability distinction with one prompt. Once oriented, correctly articulated why PoW is unnecessary in permissioned contexts (known identities, auditability, alternative consensus mechanisms). Next session should present a new scenario — e.g., a consortium of banks vs. a public DeFi protocol — and ask the student to reason from scratch which design choices are appropriate and why, without any scaffolding."
     },
     "ipfs_and_nfts": {
       "evidence_summary": null,
@@ -130,10 +130,10 @@
       "source_notes": "Independently named all three pillars of the CIA triad and described digital signatures correctly. Constructed an original conceptual model of hash-like character dependency. Does not understand *why* hash functions are one-directional — accepted the correction procedurally and applied it correctly in the blockchain section, but could not explain the theoretical basis. Next session should open by asking the student to explain why hashes cannot be reversed."
     },
     "mining": {
-      "evidence_summary": null,
-      "confidence": 0.0,
-      "status": "unseen",
-      "source_notes": null
+      "evidence_summary": "Persistent misconception about the nonce's role (described as 'giving access' or 'granting rights' to block data) required two corrections and multiple scaffolding steps to resolve procedurally. The procedural mechanics (what validators calculate, what the hash target looks like) were reached only through scaffolding. Contrasting strength: the incentive and game-theory reasoning at the end was Level 5 independent, with the game-theory invocation being the student's own connection.",
+      "confidence": 0.33,
+      "status": "shaky",
+      "source_notes": "Has the incentive logic (economic cost, game-theoretic framing) firmly in hand — invoked game theory independently and correctly. Procedural mechanics are shaky: described the nonce as 'giving access to block data' twice before being corrected, and needed step-by-step scaffolding to correctly describe what validators do with the provided nonce. Next session should ask the student to describe what a miner does step by step — specifically what the nonce is, what it is combined with, and what condition the resulting hash must satisfy — before any new material."
     },
     "blockchain_trilemma": {
       "evidence_summary": "One strong Level 5 moment (independently traced scalability → synchronization risk → security risk), followed by a weak persisting misconception (decentralization reduces security via reversibility framing), followed by Level 2 scaffolded recovery. Trajectory mixed; the misconception was corrected by the Companion but not resolved by the student.",
@@ -166,10 +166,10 @@
       "source_notes": "Generated the CBDC use case for consortium blockchain independently and accurately. Correctly identified that permissioned chains gain computational efficiency by removing proof of work. Framing of permissioned blockchain as 'pre-upload auditor validation' rather than 'restricted write access' suggests the structural definition may be slightly imprecise — next session should ask the student to define the three types in their own words before any scaffolding to verify the distinctions held."
     },
     "proof_of_work": {
-      "evidence_summary": null,
-      "confidence": 0.0,
-      "status": "unseen",
-      "source_notes": null
+      "evidence_summary": "Consistent Level 5 independent responses throughout: correctly described brute-force nonce search, identified the combinatorial difficulty, characterized the attacker's required effort, and grounded security in economic cost — all without scaffolding. One minor inversion ('asymmetry makes validation hard') was corrected by the Companion and not self-corrected, but surrounding evidence suggests it was a phrasing error rather than a structural misconception.",
+      "confidence": 0.52,
+      "status": "shaky",
+      "source_notes": "Correctly and independently described PoW as brute-force nonce search, identified that finding is expensive while verifying is trivial, and grounded the security argument in economic cost without prompting. Did not demonstrate the difficulty-adjustment mechanism or the 51% attack framing in this session. Next session should ask the student to explain what happens to the leading-zeros target as the network's computational power grows, to test whether the difficulty-adjustment concept is accessible from their current model."
     },
     "asymmetric_cryptography": {
       "evidence_summary": "Multiple Level 5 moments across the second half of the session (symmetric vs. asymmetric distinction, key-distribution mechanism, paired-key generalization), with a partially-scaffolded arrival on the signature direction and one corrected surface error on the combined sigilo+autenticidade scenario. Trajectory was improving with strongest evidence in the latter half.",
