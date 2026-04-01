@@ -1,0 +1,465 @@
+{
+  "timestamp": "2026-04-01T23:53:23.430197+00:00",
+  "input": "<session_transcript>\nStudent: <concept_graph_summary>\nSession: Session 3 — Cryptography\nTheme: How does cryptography work?\nConcepts to cover: 4\n\n---\n\n## 1. Introdução à Criptografia\nconcept_id: cryptography_introduction\nStatus: UNSEEN (confidence: 0.0)\nKnowledge type: conceptual\nHard prerequisites: Fundamentos de Segurança da Informação (SHAKY)\nAction: Full teaching — student has never seen this concept. Start with a concrete example or analogy, then build toward the principle through Socratic questioning.\n\n## 2. Funções Hash Criptográficas\nconcept_id: hash_functions\nStatus: UNSEEN (confidence: 0.0)\nKnowledge type: conceptual\nHard prerequisites: Introdução à Criptografia (UNSEEN)\nAction: Full teaching — student has never seen this concept. Start with a concrete example or analogy, then build toward the principle through Socratic questioning.\n\n## 3. Criptografia Simétrica\nconcept_id: symmetric_cryptography\nStatus: UNSEEN (confidence: 0.0)\nKnowledge type: conceptual\nHard prerequisites: Introdução à Criptografia (UNSEEN)\nAction: Full teaching — student has never seen this concept. Start with a concrete example or analogy, then build toward the principle through Socratic questioning.\n\n## 4. Criptografia Assimétrica\nconcept_id: asymmetric_cryptography\nStatus: UNSEEN (confidence: 0.0)\nKnowledge type: conceptual\nHard prerequisites: Introdução à Criptografia (UNSEEN)\nAction: Full teaching — student has never seen this concept. Start with a concrete example or analogy, then build toward the principle through Socratic questioning.\n\n</concept_graph_summary>\n\n<student_profile>\n{\n  \"student_id\": \"alice_001\",\n  \"name\": \"Alice\",\n  \"module_id\": \"mod_05_blockchain\",\n  \"last_updated\": \"2026-04-01T23:27:33.887220+00:00\",\n  \"session_state\": {\n    \"energy_checkin\": \"high\",\n    \"sessions_completed\": 2,\n    \"last_session_at\": \"2026-04-01T23:27:33.887205+00:00\"\n  },\n  \"concept_map\": {\n    \"digital_signatures\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"cryptography_introduction\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"crypto_wallets\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"symmetric_cryptography\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"distributed_hash_tables\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"ethereum_platform\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"byzantine_generals_problem\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"sequence_diagrams\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"p2p_networks\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"hash_functions\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"smart_contracts\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"tor_and_anonymity\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"distributed_system_architectures\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"computer_networks_fundamentals\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"bitcoin_as_case_study\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"ipfs_and_nfts\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"solidity_mappings\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"evm_and_virtualization\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"consensus_mechanisms\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"information_security_fundamentals\": {\n      \"evidence_summary\": \"Student correctly answered the targeted probe from the prior session (hash-integrity in a multi-node system) on first attempt without scaffolding, confirming durable retention of the hash-integrity link. One scaffolded step on the cross-node comparison mechanism, followed by independent synthesis connecting hash recalculation, chain cascades, and 51% attack as the combined security barrier.\",\n      \"confidence\": 0.68,\n      \"status\": \"shaky\",\n      \"source_notes\": \"Durably understands that hash functions make single-copy tampering detectable via the avalanche effect, and independently synthesized the combined 51%+hash-cascade barrier to undetected network-wide adulteración. Minor gap: did not independently articulate how nodes identify which copy is correct (cross-node comparison) — required one scaffolded prompt. Next session should probe whether the student can explain the role of cryptographic signatures in authenticating the *source* of a message, not just its integrity — moving toward asymmetric cryptography.\"\n    },\n    \"mining\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"blockchain_trilemma\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"game_theory_and_trust\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"software_testing_and_quality\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"hash_tables\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"blockchain_types\": {\n      \"evidence_summary\": \"Early responses on the private blockchain tradeoff were scaffolded and one was incorrect (proposing integrity/confidentiality as what private chains sacrifice). Trajectory improved through the session, with independent Level 5 responses on 51% attack exploitation, the business rationale for private chains, and the consortium balance. The targeted tradeoff probe from the prior session was addressed but required scaffolding to reach.\",\n      \"confidence\": 0.58,\n      \"status\": \"shaky\",\n      \"source_notes\": \"Can articulate the security/decentralization tradeoff in private blockchains and the 51% attack mechanism after scaffolding; independently explains business and regulatory motivations for private and consortium models. Residual gap: initially framed what private chains sacrifice as 'integrity and confidentiality' rather than decentralization/attack-resistance — did not explain why this framing was wrong. Next session should ask the student to compare two specific scenarios (e.g., a 3-node private chain vs. a 10,000-node public chain) and reason about relative attack costs without prompting, to confirm whether the node-count-to-security intuition is durable.\"\n    },\n    \"proof_of_work\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"asymmetric_cryptography\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"blockchain_fundamentals\": {\n      \"evidence_summary\": \"Block structure reproduced at Level 5 without scaffolding, confirming retention. The targeted gap from the prior session (distributed immutability across nodes) showed improvement — student reached the correct answer — but required scaffolding on the critical 51% + multi-node control step. Student's initial explanation confused intra-chain hash cascade with cross-node attack difficulty.\",\n      \"confidence\": 0.65,\n      \"status\": \"shaky\",\n      \"source_notes\": \"Can reproduce complete block structure and explain the hash-cascade mechanism independently. The distributed-immutability link (why simultaneous alteration across all nodes is impractical) required scaffolding for the second session in a row — the student understands hash chaining but does not yet independently connect it to the distributed consensus requirement. Next session should ask the student to explain, without prompting, why a blockchain with only 3 nodes would be insecure, to isolate whether the node-count-to-security link is now internalized.\"\n    },\n    \"blockchain_dev_tools\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"smart_contract_security\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"distributed_systems_fundamentals\": {\n      \"evidence_summary\": \"Multiple Level 5 independent responses across the session (availability rationale, consensus framing, fork terminology, avalanche-hash connection to vote integrity), with one mid-session scaffolded impasse on shared state that was independently resolved at session close. Trajectory improved across the session, with no scaffolding needed in the second half.\",\n      \"confidence\": 0.62,\n      \"status\": \"shaky\",\n      \"source_notes\": \"Can define distributed systems correctly including shared state (demonstrated at session close), independently names consensus and fork terminology, and connects hash-based integrity to vote verification. Residual gap: when asked how nodes verify message legitimacy, student's first instinct was IP-tracing rather than cryptographic verification — was redirected but did not articulate why IP fails. Next session should test whether the student can independently explain what happens when two honest nodes produce conflicting state updates — probing the practical mechanics of consensus resolution beyond just 'voting.'\"\n    },\n    \"solidity_basics\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"decentralized_applications\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    }\n  }\n}\n</student_profile>\n\nComeçar sessão\n\nTutor: Oi, Alice! Terceira sessão — boa vinda de volta.\n\nDeixa eu te fazer uma pergunta antes de qualquer coisa:\n\nImagina que você quer mandar uma mensagem secreta pra uma amiga, mas o caminho entre você e ela passa por várias pessoas que você não confia. O que você precisaria garantir pra que só ela conseguisse ler?\n\nStudent: precisaria garantir que só ela entendesse o que eu estivesse mandando, como se fosse em uma lingua que só a gnt sabe\n\nTutor: Boa intuição. Agora me diz — como você e ela combinariam essa \"língua secreta\" sem que as pessoas no meio descobrissem qual é?\n\nStudent: combinariamos previamente\n\nTutor: Exato! E aí tá o primeiro grande problema da criptografia — e se vocês nunca se encontraram pessoalmente antes? Como combinam esse segredo sem que ninguém intercepte?\n\nStudent: pois é, por isso temos que usar chaves na criptografia\n\nTutor: Você já conhece o conceito de chave? Me conta o que você entende por isso — como uma chave funcionaria nesse contexto.\n\nStudent: então, a chave é o que permite acesso a mensagem descriptografada e também o que permite \"trancar\" a mensagem (deixa-la criptografada). mas temos diferentes tipos de chaves, como publicas e privadas\n\nTutor: Boa — você já adiantou bastante coisa. Mas antes de ir pras chaves públicas e privadas, quero entender uma coisa mais fundamental.\n\nQuando você diz que a chave \"tranca\" a mensagem — o que exatamente ela faz com o conteúdo da mensagem pra que ela fique ilegível?\n\nStudent: transforma a mensagem em varios caracteres com letras e numeros\n\nTutor: Certo. E essa transformação — ela é aleatória, ou tem alguma lógica por trás que permite desfazê-la depois?\n\nStudent: tem uma logica por tras, se feita atravez do algoritmo aes-256\n\nTutor: Boa referência. Então resumindo o que você já construiu: criptografia é uma transformação com lógica — não é bagunça aleatória, é um algoritmo que embaralha a mensagem de um jeito que só quem tem a chave consegue reverter.\n\nAgora, você mencionou chaves públicas e privadas. Isso me diz que você sabe que existem pelo menos dois tipos de criptografia. Qual a diferença fundamental entre eles, na sua cabeça?\n\nStudent: simetrica: usa apenas uma chave para criptografar e descriptografar\nassimetrica: usa uma chave para criptografar e outra pra descriptografar\nhibrida: estabelece a comunicação com a simetrica e criptografa a chave com a assimetrica\n\nTutor: Alice, isso é um mapa bem completo — e você trouxe sem eu perguntar. Impressionante.\n\nVou te jogar um problema prático então: na criptografia simétrica, você e sua amiga precisam da mesma chave. Como vocês fazem pra compartilhar essa chave com segurança, se o canal de comunicação entre vocês é justamente o que não é seguro?\n\nStudent: pois é, eu nao lembro exatamente como manda\n\nTutor: Esse é exatamente o problema mais famoso da criptografia — tem até nome: o **problema da distribuição de chaves**.\n\nA criptografia assimétrica foi inventada justamente pra resolver isso. E você já descreveu como ela funciona: uma chave pra criptografar, outra pra descriptografar.\n\nEntão me diz — se sua amiga quer receber mensagens secretas, qual das duas chaves ela compartilha com todo mundo, e qual ela guarda só pra ela?\n\nStudent: ela compartilha a publica e guarda a privada. mas nao entendi como eu mandaria a chave pra ela na simetrica (sei que é o maior problema, mas como faria isso?)\n\nTutor: Boa pergunta — e é exatamente por isso que a criptografia híbrida existe, que você já mencionou.\n\nO fluxo é assim: você usa a chave **pública** da sua amiga pra criptografar a chave simétrica e manda pra ela. Só ela consegue descriptografar com a chave **privada** dela. Aí as duas já têm a chave simétrica em segurança, e a comunicação continua com ela.\n\nAgora, voltando à assimétrica — você disse que a chave pública criptografa e a privada descriptografa. Mas existe outro uso, invertido: a privada criptografa e a pública descriptografa. Pra que serviria isso?\n\nStudent: mas e na privada, como isso acontece?\n\nTutor: Qual parte ficou com dúvida — o fluxo da híbrida, ou o uso invertido da assimétrica que eu mencionei?\n\nStudent: nenhum dos dois, apenas como compartilho a chave na simetrica\n\nTutor: Ah, entendi! Na simétrica pura, não tem solução elegante — você precisaria de um canal seguro separado (se encontrar pessoalmente, por exemplo) pra combinar a chave antes. Esse é justamente o limite da criptografia simétrica, e o motivo pelo qual a assimétrica e a híbrida foram desenvolvidas.\n\nNa prática, ninguém usa simétrica pura pra estabelecer comunicação entre desconhecidos.\n\nFaz sentido agora?\n\nStudent: boa, obrigada\n\nTutor: De nada! Agora te jogo aquela pergunta que deixei no ar — você disse que na assimétrica a chave pública criptografa e a privada descriptografa. Mas existe o uso invertido: a privada criptografa e a pública descriptografa.\n\nPra que serviria esse uso invertido?\n\nStudent: para gerar anonimato em quem criou a mensagem?\n\nTutor: Quase — mas pensa melhor. Se a chave pública é pública, *qualquer pessoa* consegue descriptografar a mensagem. Isso garante anonimato ou o contrário?\n\nStudent: garante que vejam a informação\n\nTutor: Exato — e se qualquer pessoa consegue descriptografar com a chave pública da Alice, o que isso prova sobre quem criou a mensagem?\n\nStudent: que a pessoa nao liga se verem kkkkk\n\nTutor: Haha, faz sentido pensar assim! Mas tem algo mais preciso aí — se só a chave privada da Alice consegue gerar uma mensagem que a chave pública da Alice consegue abrir, o que isso prova sobre quem assinou a mensagem?\n\nStudent: prova a identidade\n\nTutor: Exatamente! Isso tem nome: **assinatura digital**. É a prova criptográfica de que a mensagem veio de você — porque só você tem sua chave privada.\n\nAgora conecta isso com o que você já sabe de sessões anteriores — onde você já viu a necessidade de verificar a identidade de quem mandou uma mensagem numa rede distribuída?\n\nStudent: se alguem altera algo que nao deveria por exemplo\n\nTutor: Isso! E lembrando que nas sessões anteriores você chegou a um gap interessante — quando perguntei como os nós verificam a legitimidade de uma mensagem, seu primeiro instinto foi rastrear o IP.\n\nAgora que você entende assinatura digital, por que o IP seria insuficiente e a assinatura resolve melhor?\n\nStudent: sim, mas ai a assinatura digital acontece mesmo com os tipos de criptografia? ou é um ou outro?\n\nTutor: Boa pergunta. A assinatura digital é um uso específico da criptografia assimétrica — não é um tipo separado, é uma aplicação dela.\n\nMas me responde primeiro: por que o IP seria insuficiente pra verificar identidade numa rede distribuída?\n\nStudent: pq se for um computador publico, por exemplo, nao daria para saber quem fez aquela transacao, especificamente\n\nTutor: Boa — e tem ainda outro problema mais fundamental: IPs podem ser falsificados. A assinatura digital resolve isso porque está ligada à chave privada, que só você tem, independente de qual máquina você usa.\n\nAgora quero voltar pra um conceito que você ainda não viu hoje: **funções hash criptográficas**. Você já usou hash nas sessões anteriores — me diz o que você lembra sobre o que uma função hash faz.\n\nStudent: transforma uma informação em um \"termo\" especifico, com uma quantidade de caracteres especifica, sempre igual\n\nTutor: Boa memória. E se eu mudar um único caractere na informação original — o hash muda muito ou pouco?\n\nStudent: muito\n\nTutor: Exato — isso tem nome: efeito avalanche. E agora uma pergunta importante: dá pra pegar o hash e descobrir a informação original?\n\nStudent: nao\n\nTutor: Certo. Então resume pra mim: o que torna uma função hash diferente da criptografia que a gente discutiu antes?\n\nStudent: criptografia permite voltar e descriptografar, mas função hash nao. o sha-256 seria função hash então? e aes-256 criptografia?\n\nTutor: Perfeito — distinção exata. E sim, SHA-256 é hash, AES-256 é criptografia simétrica.\n\nAgora conecta tudo: você tem uma mensagem, uma assinatura digital, e um hash. Como esses três elementos trabalham juntos pra garantir que a mensagem não foi alterada *e* que veio de quem diz que veio?\n\nStudent: a pessoa que vai mandar a mensagem assina e um hash dessa assinatura é produzido, para que seja garantir anonimato na rede, mas ao mesmo tempo, permitir que apenas a pessoa que receber veja quem enviou e garantindo integridade\n\nTutor: Quase lá — mas tem um detalhe: a assinatura digital não garante anonimato, ela garante o oposto. E o hash não é da assinatura, é da mensagem.\n\nO fluxo real é assim: você gera o hash da mensagem, depois assina esse hash com sua chave privada. Quem recebe descriptografa a assinatura com sua chave pública, recalcula o hash da mensagem, e compara os dois.\n\nO que essa comparação prova?\n\nStudent: integridade e que o remetente é mesmo quem diz se\n\nTutor: Exatamente isso — integridade e autenticidade num só mecanismo.\n\nAlice, você construiu hoje um mapa bem sólido: criptografia simétrica, assimétrica, híbrida, hash, e assinatura digital — e ainda conectou com o que você já sabia de redes distribuídas.\n\nO que foi mais difícil de entender hoje, e por quê?\n\nStudent: o que voce achou que eu tive mais dificuldade?\n\nTutor: Boa pergunta — mas quero ouvir sua perspectiva primeiro. O que *você* sentiu que travou mais?\n\nStudent: provavel que assinatura digital\n\nTutor: Faz sentido. E olha que interessante — você travou exatamente no ponto onde a criptografia vira uma ferramenta de *identidade*, não só de *segredo*. É uma virada conceitual, não é técnica.\n\nO que você entende agora sobre assinatura digital que não entendia no começo da sessão?\n\nStudent: que ela garante autenticidade e nao anonimato\n\nTutor: Isso — e que ela usa a criptografia assimétrica de forma invertida, o que é contraintuitivo no começo.\n\nBoa sessão, Alice. Até a próxima!\n</session_transcript>\n\n<concept_graph>\nSession: Session 3 — Cryptography\nTheme: How does cryptography work?\nConcepts to cover: 4\n\n---\n\n## 1. Introdução à Criptografia\nconcept_id: cryptography_introduction\nStatus: UNSEEN (confidence: 0.0)\nKnowledge type: conceptual\nHard prerequisites: Fundamentos de Segurança da Informação (SHAKY)\nAction: Full teaching — student has never seen this concept. Start with a concrete example or analogy, then build toward the principle through Socratic questioning.\n\n## 2. Funções Hash Criptográficas\nconcept_id: hash_functions\nStatus: UNSEEN (confidence: 0.0)\nKnowledge type: conceptual\nHard prerequisites: Introdução à Criptografia (UNSEEN)\nAction: Full teaching — student has never seen this concept. Start with a concrete example or analogy, then build toward the principle through Socratic questioning.\n\n## 3. Criptografia Simétrica\nconcept_id: symmetric_cryptography\nStatus: UNSEEN (confidence: 0.0)\nKnowledge type: conceptual\nHard prerequisites: Introdução à Criptografia (UNSEEN)\nAction: Full teaching — student has never seen this concept. Start with a concrete example or analogy, then build toward the principle through Socratic questioning.\n\n## 4. Criptografia Assimétrica\nconcept_id: asymmetric_cryptography\nStatus: UNSEEN (confidence: 0.0)\nKnowledge type: conceptual\nHard prerequisites: Introdução à Criptografia (UNSEEN)\nAction: Full teaching — student has never seen this concept. Start with a concrete example or analogy, then build toward the principle through Socratic questioning.\n\n</concept_graph>\n\n<student_profile>\n{\n  \"student_id\": \"alice_001\",\n  \"name\": \"Alice\",\n  \"module_id\": \"mod_05_blockchain\",\n  \"last_updated\": \"2026-04-01T23:27:33.887220+00:00\",\n  \"session_state\": {\n    \"energy_checkin\": \"high\",\n    \"sessions_completed\": 2,\n    \"last_session_at\": \"2026-04-01T23:27:33.887205+00:00\"\n  },\n  \"concept_map\": {\n    \"digital_signatures\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"cryptography_introduction\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"crypto_wallets\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"symmetric_cryptography\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"distributed_hash_tables\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"ethereum_platform\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"byzantine_generals_problem\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"sequence_diagrams\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"p2p_networks\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"hash_functions\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"smart_contracts\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"tor_and_anonymity\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"distributed_system_architectures\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"computer_networks_fundamentals\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"bitcoin_as_case_study\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"ipfs_and_nfts\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"solidity_mappings\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"evm_and_virtualization\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"consensus_mechanisms\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"information_security_fundamentals\": {\n      \"evidence_summary\": \"Student correctly answered the targeted probe from the prior session (hash-integrity in a multi-node system) on first attempt without scaffolding, confirming durable retention of the hash-integrity link. One scaffolded step on the cross-node comparison mechanism, followed by independent synthesis connecting hash recalculation, chain cascades, and 51% attack as the combined security barrier.\",\n      \"confidence\": 0.68,\n      \"status\": \"shaky\",\n      \"source_notes\": \"Durably understands that hash functions make single-copy tampering detectable via the avalanche effect, and independently synthesized the combined 51%+hash-cascade barrier to undetected network-wide adulteración. Minor gap: did not independently articulate how nodes identify which copy is correct (cross-node comparison) — required one scaffolded prompt. Next session should probe whether the student can explain the role of cryptographic signatures in authenticating the *source* of a message, not just its integrity — moving toward asymmetric cryptography.\"\n    },\n    \"mining\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"blockchain_trilemma\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"game_theory_and_trust\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"software_testing_and_quality\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"hash_tables\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"blockchain_types\": {\n      \"evidence_summary\": \"Early responses on the private blockchain tradeoff were scaffolded and one was incorrect (proposing integrity/confidentiality as what private chains sacrifice). Trajectory improved through the session, with independent Level 5 responses on 51% attack exploitation, the business rationale for private chains, and the consortium balance. The targeted tradeoff probe from the prior session was addressed but required scaffolding to reach.\",\n      \"confidence\": 0.58,\n      \"status\": \"shaky\",\n      \"source_notes\": \"Can articulate the security/decentralization tradeoff in private blockchains and the 51% attack mechanism after scaffolding; independently explains business and regulatory motivations for private and consortium models. Residual gap: initially framed what private chains sacrifice as 'integrity and confidentiality' rather than decentralization/attack-resistance — did not explain why this framing was wrong. Next session should ask the student to compare two specific scenarios (e.g., a 3-node private chain vs. a 10,000-node public chain) and reason about relative attack costs without prompting, to confirm whether the node-count-to-security intuition is durable.\"\n    },\n    \"proof_of_work\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"asymmetric_cryptography\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"blockchain_fundamentals\": {\n      \"evidence_summary\": \"Block structure reproduced at Level 5 without scaffolding, confirming retention. The targeted gap from the prior session (distributed immutability across nodes) showed improvement — student reached the correct answer — but required scaffolding on the critical 51% + multi-node control step. Student's initial explanation confused intra-chain hash cascade with cross-node attack difficulty.\",\n      \"confidence\": 0.65,\n      \"status\": \"shaky\",\n      \"source_notes\": \"Can reproduce complete block structure and explain the hash-cascade mechanism independently. The distributed-immutability link (why simultaneous alteration across all nodes is impractical) required scaffolding for the second session in a row — the student understands hash chaining but does not yet independently connect it to the distributed consensus requirement. Next session should ask the student to explain, without prompting, why a blockchain with only 3 nodes would be insecure, to isolate whether the node-count-to-security link is now internalized.\"\n    },\n    \"blockchain_dev_tools\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"smart_contract_security\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"distributed_systems_fundamentals\": {\n      \"evidence_summary\": \"Multiple Level 5 independent responses across the session (availability rationale, consensus framing, fork terminology, avalanche-hash connection to vote integrity), with one mid-session scaffolded impasse on shared state that was independently resolved at session close. Trajectory improved across the session, with no scaffolding needed in the second half.\",\n      \"confidence\": 0.62,\n      \"status\": \"shaky\",\n      \"source_notes\": \"Can define distributed systems correctly including shared state (demonstrated at session close), independently names consensus and fork terminology, and connects hash-based integrity to vote verification. Residual gap: when asked how nodes verify message legitimacy, student's first instinct was IP-tracing rather than cryptographic verification — was redirected but did not articulate why IP fails. Next session should test whether the student can independently explain what happens when two honest nodes produce conflicting state updates — probing the practical mechanics of consensus resolution beyond just 'voting.'\"\n    },\n    \"solidity_basics\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"decentralized_applications\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    }\n  }\n}\n</student_profile>",
+  "raw_response": "I will work through all four concepts in the concept graph before scoring.\n\n---\n\n## PHASE 1 — EVIDENCE ANALYSIS\n\n<concept_analysis id=\"cryptography_introduction\">\n\nEvidence moments:\n\n- **Level 6 (early):** Before the Companion introduced any formal framework, Alice volunteered \"a chave é o que permite acesso a mensagem descriptografada e também o que permite 'trancar' a mensagem\" and then immediately extended into \"mas temos diferentes tipos de chaves, como públicas e privadas.\" This was generative — she brought public/private keys into the conversation without being prompted or asked. The Companion had only asked what she understood by \"chave.\"\n\n- **Level 6 (early-mid):** When asked to explain the difference between symmetric and asymmetric cryptography, Alice produced a three-way taxonomy unprompted — symmetric (one key), asymmetric (two keys), and hybrid (asymmetric to establish, symmetric to communicate). The Companion had only asked for the \"fundamental difference\" between two types. Alice introduced a third category the Companion had not asked about and correctly described the hybrid flow.\n\n- **Level 5 (mid):** When asked what the key \"does\" to the message content to make it unreadable, Alice answered \"transforma a mensagem em varios caracteres com letras e numeros\" — correct and produced independently. She then added \"se feita atravez do algoritmo aes-256\" without scaffolding, demonstrating prior knowledge rather than recall of something the Companion said.\n\n- **Level 2 (early):** The opening responses (\"precisaria garantir que só ela entendesse,\" \"combinariamos previamente\") were directionally correct but vague — the Companion had to narrow the question multiple times before Alice connected these to cryptographic keys. However, Alice's subsequent unprompted extension to keys and public/private distinguishes this as background scaffolding before prior knowledge activated, not inability.\n\n**Trajectory:** Strongly improving. The early responses were surface-level, but once the Companion asked a direct question about keys, Alice demonstrated that she already held the framework. Her independent contributions (hybrid cryptography, AES-256 reference, SHA-256/AES-256 distinction) came without scaffolding and represent prior knowledge being activated, not new learning developed under guidance.\n\n**Misconceptions:** None identified. The core conceptual framing — that encryption is a reversible logical transformation controlled by a key — was accurate throughout.\n\n**Assessment rationale:** The generative reasoning criterion is strongly satisfied: Alice volunteered a three-part taxonomy (symmetric/asymmetric/hybrid) that extended beyond the Companion's question, and named specific algorithms correctly without prompting. The independence criterion is satisfied across multiple moments. This is first exposure in the system (status UNSEEN), but Alice demonstrably entered the session with prior knowledge. The calibration anchors for first exposure with Level 5–6 evidence across multiple exchanges allow scoring above 0.50.\n\n</concept_analysis>\n\n---\n\n<concept_analysis id=\"symmetric_cryptography\">\n\nEvidence moments:\n\n- **Level 6 (early):** Alice produced the symmetric/asymmetric/hybrid taxonomy without being asked, including a correct description of symmetric cryptography (\"usa apenas uma chave para criptografar e descriptografar\") and the hybrid use case (\"estabelece a comunicação com a simétrica e criptografa a chave com a assimétrica\"). This was entirely generative — the Companion had not introduced these categories.\n\n- **Level 5 (mid):** When asked how two parties would share the symmetric key securely over an insecure channel, Alice correctly identified this as the key-distribution problem and acknowledged she didn't remember the exact solution. This is not a failure — it reflects accurate self-knowledge of the boundary of her understanding. The key-distribution problem is the precise conceptual gap the question was designed to probe.\n\n- **Level 2 (mid):** After the Companion explained that symmetric-pure requires a pre-existing secure channel and the hybrid approach solves this, Alice responded \"boa, obrigada\" — passive acknowledgment. The explanation was not tested independently after.\n\n- **Level 0 (late):** The hybrid key-exchange mechanism (using asymmetric to wrap the symmetric key) was explained by the Companion and acknowledged by Alice but never tested. Alice did not subsequently demonstrate independent understanding of the hybrid exchange flow.\n\n**Trajectory:** Mixed. Strong independent entry with the taxonomy, then an honest impasse at the distribution problem, then passive receipt of the explanation without independent demonstration. The trajectory peaked early.\n\n**Misconceptions:** None identified. Alice's prior framing of symmetric cryptography was accurate.\n\n**Assessment rationale:** The generative criterion is satisfied on the taxonomy — Alice produced the correct symmetric/hybrid distinction independently. However, the key-distribution problem (the conceptually crucial limitation of symmetric cryptography) was only passively acknowledged after explanation, not independently reasoned through. The independence criterion is satisfied for the definitional level but not for the limitation level. First exposure context applies, but strong prior knowledge is evident on core mechanics.\n\n</concept_analysis>\n\n---\n\n<concept_analysis id=\"asymmetric_cryptography\">\n\nEvidence moments:\n\n- **Level 6 (early):** Alice introduced public/private key terminology before the Companion asked, and correctly described asymmetric cryptography's two-key structure as part of her unprompted taxonomy.\n\n- **Level 5 (mid):** When asked which key her friend shares publicly and which she keeps private, Alice answered correctly and without hesitation — \"ela compartilha a pública e guarda a privada.\"\n\n- **Level 2 (mid):** When asked what the *inverted* use of asymmetric cryptography (private encrypts, public decrypts) would be used for, Alice answered \"para gerar anonimato em quem criou a mensagem\" — this was incorrect. The Companion had to scaffold twice before she reached the correct concept.\n\n- **Level 2 (mid):** After scaffolding (\"se qualquer pessoa consegue descriptografar com a chave pública da Alice, o que isso prova sobre quem criou a mensagem?\"), Alice answered \"prova a identidade\" — correct but arrived only after two narrowing questions. The Companion had to eliminate the wrong answer and reframe before Alice reached identity/authenticity.\n\n- **Level 5 (late):** When asked why IP-based identity verification would be insufficient and how digital signatures solve this, Alice provided a substantive answer about public computers not identifying individuals specifically — a reasoning-based response, not a recall of the Companion's statement. This was produced without scaffolding.\n\n- **Level 1 (late):** At session close, when asked what she now understands about digital signatures that she didn't before, Alice responded \"que ela garante autenticidade e não anonimato\" — mostly a restatement of the Companion's earlier correction rather than a novel formulation. Modest evidence of encoding the correction.\n\n**Trajectory:** Improving but uneven. Strong independent start on the mechanics (two-key structure, public/private roles), then a misconception on the inverted use that required scaffolding, then independent recovery on the IP-identity question. The misconception on the inverted use was resolved but not deeply — Alice accepted the correction and restated it without explaining why her original reasoning was wrong.\n\n**Misconceptions:** \n- **Resolved (weakly):** Alice initially stated that private-encrypts/public-decrypts guarantees anonymity. This was corrected by the Companion through two scaffolding questions. Alice's final response (\"garante autenticidade e não anonimato\") indicates she registered the correction, but she did not explain *why* her original reasoning was wrong — she stopped stating it rather than explaining the error. This qualifies as surface-level resolution, not deep resolution.\n\n**Assessment rationale:** The independence criterion is satisfied for the foundational mechanics (two-key structure, public/private roles) but not for the inverted use (digital signature application). The misconception on anonymity was resolved at the surface level — Alice restated the correction but did not articulate why the inverted use proves identity rather than concealing it. The trajectory improved overall. Per scoring rules, a resolved misconception (even weakly) does not cap the score, but the resolution quality matters.\n\n</concept_analysis>\n\n---\n\n<concept_analysis id=\"hash_functions\">\n\nEvidence moments:\n\n- **Level 5 (early):** When asked what she remembers about hash functions, Alice answered \"transforma uma informação em um 'termo' específico, com uma quantidade de caracteres específica, sempre igual\" — accurate and unprompted, pulling from prior sessions.\n\n- **Level 5 (early):** When asked whether a single changed character produces large or small hash change, Alice answered \"muito\" — correct, immediate, no scaffolding. She already knew the avalanche effect without being told.\n\n- **Level 5 (early-mid):** When asked whether you can reverse a hash to find the original, Alice answered \"não\" — correct, immediate, no scaffolding.\n\n- **Level 6 (mid):** When asked to contrast hash functions with encryption, Alice responded \"criptografia permite voltar e descriptografar, mas função hash não. o SHA-256 seria função hash então? e AES-256 criptografia?\" — she independently deduced the SHA-256/AES-256 classification from the conceptual distinction, rather than being told. This was a genuine inference — the Companion had not named SHA-256 as hash or AES-256 as symmetric in this session. (She had mentioned AES-256 earlier as something she already knew.) The Companion confirmed her classification.\n\n- **Level 2 (late):** When asked how hash + signature + message work together, Alice initially described an incorrect flow — \"a pessoa que vai mandar a mensagem assina e um hash dessa assinatura é produzido\" with an incorrect claim that this \"garante anonimato.\" This mixes up the hash-of-message-then-sign flow and reintroduces the anonymity misconception. The Companion corrected the flow directly.\n\n- **Level 5 (late):** After the Companion explained the correct flow, Alice correctly summarized what the comparison of hash values proves — \"integridade e que o remetente é mesmo quem diz ser\" — demonstrating she understood the combined mechanism.\n\n**Trajectory:** Strong through the core hash properties (one-way, avalanche, fixed output), then a stumble when asked to synthesize hash with signatures (incorrect flow, anonymity reappearance). Recovered quickly after correction to produce the correct summary.\n\n**Misconceptions:** \n- **Persisting (weak):** Alice described the hash-signature flow as \"hash of the signature\" rather than \"signature of the hash of the message.\" This reflects a conceptual inversion in the integration step. The Companion corrected it, and Alice's subsequent answer was correct — but she did not explain why her formulation was wrong. Additionally, the anonymity framing reappeared here, suggesting the earlier correction on anonymity was not fully internalized at the time of integration.\n\n**Assessment rationale:** Core hash properties (one-way, avalanche, fixed output, irreversibility) are demonstrated at Level 5 with no scaffolding. The SHA-256 classification inference is Level 6 — Alice applied the conceptual distinction to classify a named algorithm independently. However, the synthesis step (hash + signature integration) produced an incorrect flow that required correction, and the anonymity confusion resurfaced. The weak persisting misconception (inverted hash-signature flow) constrains the score modestly — the cap applies at 0.6, but the strong Level 5–6 evidence on core properties would place it near there anyway.\n\n</concept_analysis>\n\n---\n\n## PHASE 2 — SCORING\n\n<scores>\n{\n  \"cryptography_introduction\": {\n    \"evidence_summary\": \"Multiple Level 6 moments early in the session: Alice volunteered the key-as-lock-and-unlock concept, introduced public/private keys without prompting, and produced an unprompted three-part taxonomy (symmetric/asymmetric/hybrid) that extended beyond the Companion's question. Level 5 evidence on the transformation mechanism (AES-256 reference). Trajectory strongly improving as prior knowledge activated — no decline observed.\",\n    \"confidence\": 0.62,\n    \"status\": \"shaky\",\n    \"source_notes\": \"Entered the session with a working mental model of cryptography as a keyed reversible transformation — named AES-256, introduced the symmetric/asymmetric/hybrid taxonomy independently, and correctly described the key's dual role. The foundational concept is well-grounded. Next session should probe whether she can explain *why* a key-based algorithm is secure against someone who knows the algorithm but not the key (Kerckhoffs's principle direction), to test whether her understanding extends beyond mechanics to security reasoning.\"\n  },\n  \"symmetric_cryptography\": {\n    \"evidence_summary\": \"Level 6 evidence on the definitional level — Alice produced the symmetric/hybrid taxonomy independently without prompting. Level 2 on the key-distribution limitation: correctly identified it as a problem she couldn't solve, then passively acknowledged the explanation. The hybrid key-exchange mechanism was explained but never independently tested. Trajectory peaked early then flattened.\",\n    \"confidence\": 0.48,\n    \"status\": \"shaky\",\n    \"source_notes\": \"Can define symmetric cryptography accurately and independently situate it within a symmetric/asymmetric/hybrid framework. Correctly identified the key-distribution problem as the core limitation but could not articulate the solution independently. The hybrid key-exchange mechanism (asymmetric wraps symmetric key) was received passively. Next session should ask Alice to walk through — without prompting — how two strangers would establish a symmetric session key over an insecure channel, to test whether the hybrid exchange flow was retained.\"\n  },\n  \"asymmetric_cryptography\": {\n    \"evidence_summary\": \"Level 6 on the structural mechanics (introduced public/private key taxonomy unprompted); Level 5 on the public/private role assignment. Level 2 on the inverted use (digital signature): required two scaffolding questions after an incorrect answer (anonymity claim). Misconception on anonymity was resolved at surface level — Alice restated the correction without explaining why her original reasoning was wrong. Trajectory uneven: strong start, dip at inverted-use, recovery on IP-identity application.\",\n    \"confidence\": 0.50,\n    \"status\": \"shaky\",\n    \"source_notes\": \"Understands the two-key structure and public/private role assignment independently. The inverted-use (private encrypts → public decrypts = digital signature) required scaffolding and produced an initial misconception that anonymity is guaranteed. Alice restated the correction ('garante autenticidade e não anonimato') but did not explain why — resolution was surface-level. Next session should ask Alice to explain, without prompting, why using your private key to sign a message proves your identity — specifically asking her to explain what would happen if someone tried to forge your signature without your private key.\"\n  },\n  \"hash_functions\": {\n    \"evidence_summary\": \"Level 5 across all core properties (one-way, avalanche effect, fixed output) with no scaffolding — all recalled from prior sessions. Level 6 on the SHA-256/AES-256 classification: Alice independently deduced which algorithm belongs to which category based on the conceptual distinction, without being told. Stumble at the synthesis step: produced incorrect hash-signature flow (hash of the signature rather than signature of the hash) and reintroduced the anonymity framing. Recovered to correct synthesis summary after Companion correction. Weak persisting misconception on the integration flow.\",\n    \"confidence\": 0.52,\n    \"status\": \"shaky\",\n    \"source_notes\": \"Core hash properties (irreversibility, avalanche, fixed output) are durably retained from prior sessions — demonstrated at Level 5 without scaffolding. Independently classified SHA-256 vs AES-256 from first principles. Weakness: the hash-then-sign integration flow was inverted (described as hashing the signature rather than signing the hash), and the anonymity framing reappeared in that context. Next session should ask Alice to narrate the full signing-and-verification flow step by step — who does what, in what order — to confirm whether the correct sequence (hash the message → sign the hash → receiver decrypts signature → recalculates hash → compares) is now retained.\"\n  }\n}\n</scores>",
+  "parsed_scores": {
+    "cryptography_introduction": {
+      "evidence_summary": "Multiple Level 6 moments early in the session: Alice volunteered the key-as-lock-and-unlock concept, introduced public/private keys without prompting, and produced an unprompted three-part taxonomy (symmetric/asymmetric/hybrid) that extended beyond the Companion's question. Level 5 evidence on the transformation mechanism (AES-256 reference). Trajectory strongly improving as prior knowledge activated — no decline observed.",
+      "confidence": 0.62,
+      "status": "shaky",
+      "source_notes": "Entered the session with a working mental model of cryptography as a keyed reversible transformation — named AES-256, introduced the symmetric/asymmetric/hybrid taxonomy independently, and correctly described the key's dual role. The foundational concept is well-grounded. Next session should probe whether she can explain *why* a key-based algorithm is secure against someone who knows the algorithm but not the key (Kerckhoffs's principle direction), to test whether her understanding extends beyond mechanics to security reasoning."
+    },
+    "symmetric_cryptography": {
+      "evidence_summary": "Level 6 evidence on the definitional level — Alice produced the symmetric/hybrid taxonomy independently without prompting. Level 2 on the key-distribution limitation: correctly identified it as a problem she couldn't solve, then passively acknowledged the explanation. The hybrid key-exchange mechanism was explained but never independently tested. Trajectory peaked early then flattened.",
+      "confidence": 0.48,
+      "status": "shaky",
+      "source_notes": "Can define symmetric cryptography accurately and independently situate it within a symmetric/asymmetric/hybrid framework. Correctly identified the key-distribution problem as the core limitation but could not articulate the solution independently. The hybrid key-exchange mechanism (asymmetric wraps symmetric key) was received passively. Next session should ask Alice to walk through — without prompting — how two strangers would establish a symmetric session key over an insecure channel, to test whether the hybrid exchange flow was retained."
+    },
+    "asymmetric_cryptography": {
+      "evidence_summary": "Level 6 on the structural mechanics (introduced public/private key taxonomy unprompted); Level 5 on the public/private role assignment. Level 2 on the inverted use (digital signature): required two scaffolding questions after an incorrect answer (anonymity claim). Misconception on anonymity was resolved at surface level — Alice restated the correction without explaining why her original reasoning was wrong. Trajectory uneven: strong start, dip at inverted-use, recovery on IP-identity application.",
+      "confidence": 0.5,
+      "status": "shaky",
+      "source_notes": "Understands the two-key structure and public/private role assignment independently. The inverted-use (private encrypts → public decrypts = digital signature) required scaffolding and produced an initial misconception that anonymity is guaranteed. Alice restated the correction ('garante autenticidade e não anonimato') but did not explain why — resolution was surface-level. Next session should ask Alice to explain, without prompting, why using your private key to sign a message proves your identity — specifically asking her to explain what would happen if someone tried to forge your signature without your private key."
+    },
+    "hash_functions": {
+      "evidence_summary": "Level 5 across all core properties (one-way, avalanche effect, fixed output) with no scaffolding — all recalled from prior sessions. Level 6 on the SHA-256/AES-256 classification: Alice independently deduced which algorithm belongs to which category based on the conceptual distinction, without being told. Stumble at the synthesis step: produced incorrect hash-signature flow (hash of the signature rather than signature of the hash) and reintroduced the anonymity framing. Recovered to correct synthesis summary after Companion correction. Weak persisting misconception on the integration flow.",
+      "confidence": 0.52,
+      "status": "shaky",
+      "source_notes": "Core hash properties (irreversibility, avalanche, fixed output) are durably retained from prior sessions — demonstrated at Level 5 without scaffolding. Independently classified SHA-256 vs AES-256 from first principles. Weakness: the hash-then-sign integration flow was inverted (described as hashing the signature rather than signing the hash), and the anonymity framing reappeared in that context. Next session should ask Alice to narrate the full signing-and-verification flow step by step — who does what, in what order — to confirm whether the correct sequence (hash the message → sign the hash → receiver decrypts signature → recalculates hash → compares) is now retained."
+    }
+  },
+  "before_profile": {
+    "student_id": "alice_001",
+    "name": "Alice",
+    "module_id": "mod_05_blockchain",
+    "last_updated": "2026-04-01T23:27:33.887220+00:00",
+    "session_state": {
+      "energy_checkin": "high",
+      "sessions_completed": 2,
+      "last_session_at": "2026-04-01T23:27:33.887205+00:00"
+    },
+    "concept_map": {
+      "digital_signatures": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "cryptography_introduction": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "crypto_wallets": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "symmetric_cryptography": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "distributed_hash_tables": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "ethereum_platform": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "byzantine_generals_problem": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "sequence_diagrams": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "p2p_networks": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "hash_functions": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "smart_contracts": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "tor_and_anonymity": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "distributed_system_architectures": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "computer_networks_fundamentals": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "bitcoin_as_case_study": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "ipfs_and_nfts": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "solidity_mappings": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "evm_and_virtualization": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "consensus_mechanisms": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "information_security_fundamentals": {
+        "evidence_summary": "Student correctly answered the targeted probe from the prior session (hash-integrity in a multi-node system) on first attempt without scaffolding, confirming durable retention of the hash-integrity link. One scaffolded step on the cross-node comparison mechanism, followed by independent synthesis connecting hash recalculation, chain cascades, and 51% attack as the combined security barrier.",
+        "confidence": 0.68,
+        "status": "shaky",
+        "source_notes": "Durably understands that hash functions make single-copy tampering detectable via the avalanche effect, and independently synthesized the combined 51%+hash-cascade barrier to undetected network-wide adulteración. Minor gap: did not independently articulate how nodes identify which copy is correct (cross-node comparison) — required one scaffolded prompt. Next session should probe whether the student can explain the role of cryptographic signatures in authenticating the *source* of a message, not just its integrity — moving toward asymmetric cryptography."
+      },
+      "mining": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "blockchain_trilemma": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "game_theory_and_trust": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "software_testing_and_quality": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "hash_tables": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "blockchain_types": {
+        "evidence_summary": "Early responses on the private blockchain tradeoff were scaffolded and one was incorrect (proposing integrity/confidentiality as what private chains sacrifice). Trajectory improved through the session, with independent Level 5 responses on 51% attack exploitation, the business rationale for private chains, and the consortium balance. The targeted tradeoff probe from the prior session was addressed but required scaffolding to reach.",
+        "confidence": 0.58,
+        "status": "shaky",
+        "source_notes": "Can articulate the security/decentralization tradeoff in private blockchains and the 51% attack mechanism after scaffolding; independently explains business and regulatory motivations for private and consortium models. Residual gap: initially framed what private chains sacrifice as 'integrity and confidentiality' rather than decentralization/attack-resistance — did not explain why this framing was wrong. Next session should ask the student to compare two specific scenarios (e.g., a 3-node private chain vs. a 10,000-node public chain) and reason about relative attack costs without prompting, to confirm whether the node-count-to-security intuition is durable."
+      },
+      "proof_of_work": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "asymmetric_cryptography": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "blockchain_fundamentals": {
+        "evidence_summary": "Block structure reproduced at Level 5 without scaffolding, confirming retention. The targeted gap from the prior session (distributed immutability across nodes) showed improvement — student reached the correct answer — but required scaffolding on the critical 51% + multi-node control step. Student's initial explanation confused intra-chain hash cascade with cross-node attack difficulty.",
+        "confidence": 0.65,
+        "status": "shaky",
+        "source_notes": "Can reproduce complete block structure and explain the hash-cascade mechanism independently. The distributed-immutability link (why simultaneous alteration across all nodes is impractical) required scaffolding for the second session in a row — the student understands hash chaining but does not yet independently connect it to the distributed consensus requirement. Next session should ask the student to explain, without prompting, why a blockchain with only 3 nodes would be insecure, to isolate whether the node-count-to-security link is now internalized."
+      },
+      "blockchain_dev_tools": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "smart_contract_security": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "distributed_systems_fundamentals": {
+        "evidence_summary": "Multiple Level 5 independent responses across the session (availability rationale, consensus framing, fork terminology, avalanche-hash connection to vote integrity), with one mid-session scaffolded impasse on shared state that was independently resolved at session close. Trajectory improved across the session, with no scaffolding needed in the second half.",
+        "confidence": 0.62,
+        "status": "shaky",
+        "source_notes": "Can define distributed systems correctly including shared state (demonstrated at session close), independently names consensus and fork terminology, and connects hash-based integrity to vote verification. Residual gap: when asked how nodes verify message legitimacy, student's first instinct was IP-tracing rather than cryptographic verification — was redirected but did not articulate why IP fails. Next session should test whether the student can independently explain what happens when two honest nodes produce conflicting state updates — probing the practical mechanics of consensus resolution beyond just 'voting.'"
+      },
+      "solidity_basics": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "decentralized_applications": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      }
+    }
+  },
+  "after_profile": {
+    "student_id": "alice_001",
+    "name": "Alice",
+    "module_id": "mod_05_blockchain",
+    "last_updated": "2026-04-01T23:53:23.429839+00:00",
+    "session_state": {
+      "energy_checkin": "high",
+      "sessions_completed": 3,
+      "last_session_at": "2026-04-01T23:53:23.429830+00:00"
+    },
+    "concept_map": {
+      "digital_signatures": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "cryptography_introduction": {
+        "evidence_summary": "Multiple Level 6 moments early in the session: Alice volunteered the key-as-lock-and-unlock concept, introduced public/private keys without prompting, and produced an unprompted three-part taxonomy (symmetric/asymmetric/hybrid) that extended beyond the Companion's question. Level 5 evidence on the transformation mechanism (AES-256 reference). Trajectory strongly improving as prior knowledge activated — no decline observed.",
+        "confidence": 0.62,
+        "status": "shaky",
+        "source_notes": "Entered the session with a working mental model of cryptography as a keyed reversible transformation — named AES-256, introduced the symmetric/asymmetric/hybrid taxonomy independently, and correctly described the key's dual role. The foundational concept is well-grounded. Next session should probe whether she can explain *why* a key-based algorithm is secure against someone who knows the algorithm but not the key (Kerckhoffs's principle direction), to test whether her understanding extends beyond mechanics to security reasoning."
+      },
+      "crypto_wallets": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "symmetric_cryptography": {
+        "evidence_summary": "Level 6 evidence on the definitional level — Alice produced the symmetric/hybrid taxonomy independently without prompting. Level 2 on the key-distribution limitation: correctly identified it as a problem she couldn't solve, then passively acknowledged the explanation. The hybrid key-exchange mechanism was explained but never independently tested. Trajectory peaked early then flattened.",
+        "confidence": 0.48,
+        "status": "shaky",
+        "source_notes": "Can define symmetric cryptography accurately and independently situate it within a symmetric/asymmetric/hybrid framework. Correctly identified the key-distribution problem as the core limitation but could not articulate the solution independently. The hybrid key-exchange mechanism (asymmetric wraps symmetric key) was received passively. Next session should ask Alice to walk through — without prompting — how two strangers would establish a symmetric session key over an insecure channel, to test whether the hybrid exchange flow was retained."
+      },
+      "distributed_hash_tables": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "ethereum_platform": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "byzantine_generals_problem": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "sequence_diagrams": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "p2p_networks": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "hash_functions": {
+        "evidence_summary": "Level 5 across all core properties (one-way, avalanche effect, fixed output) with no scaffolding — all recalled from prior sessions. Level 6 on the SHA-256/AES-256 classification: Alice independently deduced which algorithm belongs to which category based on the conceptual distinction, without being told. Stumble at the synthesis step: produced incorrect hash-signature flow (hash of the signature rather than signature of the hash) and reintroduced the anonymity framing. Recovered to correct synthesis summary after Companion correction. Weak persisting misconception on the integration flow.",
+        "confidence": 0.52,
+        "status": "shaky",
+        "source_notes": "Core hash properties (irreversibility, avalanche, fixed output) are durably retained from prior sessions — demonstrated at Level 5 without scaffolding. Independently classified SHA-256 vs AES-256 from first principles. Weakness: the hash-then-sign integration flow was inverted (described as hashing the signature rather than signing the hash), and the anonymity framing reappeared in that context. Next session should ask Alice to narrate the full signing-and-verification flow step by step — who does what, in what order — to confirm whether the correct sequence (hash the message → sign the hash → receiver decrypts signature → recalculates hash → compares) is now retained."
+      },
+      "smart_contracts": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "tor_and_anonymity": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "distributed_system_architectures": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "computer_networks_fundamentals": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "bitcoin_as_case_study": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "ipfs_and_nfts": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "solidity_mappings": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "evm_and_virtualization": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "consensus_mechanisms": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "information_security_fundamentals": {
+        "evidence_summary": "Student correctly answered the targeted probe from the prior session (hash-integrity in a multi-node system) on first attempt without scaffolding, confirming durable retention of the hash-integrity link. One scaffolded step on the cross-node comparison mechanism, followed by independent synthesis connecting hash recalculation, chain cascades, and 51% attack as the combined security barrier.",
+        "confidence": 0.68,
+        "status": "shaky",
+        "source_notes": "Durably understands that hash functions make single-copy tampering detectable via the avalanche effect, and independently synthesized the combined 51%+hash-cascade barrier to undetected network-wide adulteración. Minor gap: did not independently articulate how nodes identify which copy is correct (cross-node comparison) — required one scaffolded prompt. Next session should probe whether the student can explain the role of cryptographic signatures in authenticating the *source* of a message, not just its integrity — moving toward asymmetric cryptography."
+      },
+      "mining": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "blockchain_trilemma": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "game_theory_and_trust": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "software_testing_and_quality": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "hash_tables": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "blockchain_types": {
+        "evidence_summary": "Early responses on the private blockchain tradeoff were scaffolded and one was incorrect (proposing integrity/confidentiality as what private chains sacrifice). Trajectory improved through the session, with independent Level 5 responses on 51% attack exploitation, the business rationale for private chains, and the consortium balance. The targeted tradeoff probe from the prior session was addressed but required scaffolding to reach.",
+        "confidence": 0.58,
+        "status": "shaky",
+        "source_notes": "Can articulate the security/decentralization tradeoff in private blockchains and the 51% attack mechanism after scaffolding; independently explains business and regulatory motivations for private and consortium models. Residual gap: initially framed what private chains sacrifice as 'integrity and confidentiality' rather than decentralization/attack-resistance — did not explain why this framing was wrong. Next session should ask the student to compare two specific scenarios (e.g., a 3-node private chain vs. a 10,000-node public chain) and reason about relative attack costs without prompting, to confirm whether the node-count-to-security intuition is durable."
+      },
+      "proof_of_work": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "asymmetric_cryptography": {
+        "evidence_summary": "Level 6 on the structural mechanics (introduced public/private key taxonomy unprompted); Level 5 on the public/private role assignment. Level 2 on the inverted use (digital signature): required two scaffolding questions after an incorrect answer (anonymity claim). Misconception on anonymity was resolved at surface level — Alice restated the correction without explaining why her original reasoning was wrong. Trajectory uneven: strong start, dip at inverted-use, recovery on IP-identity application.",
+        "confidence": 0.5,
+        "status": "shaky",
+        "source_notes": "Understands the two-key structure and public/private role assignment independently. The inverted-use (private encrypts → public decrypts = digital signature) required scaffolding and produced an initial misconception that anonymity is guaranteed. Alice restated the correction ('garante autenticidade e não anonimato') but did not explain why — resolution was surface-level. Next session should ask Alice to explain, without prompting, why using your private key to sign a message proves your identity — specifically asking her to explain what would happen if someone tried to forge your signature without your private key."
+      },
+      "blockchain_fundamentals": {
+        "evidence_summary": "Block structure reproduced at Level 5 without scaffolding, confirming retention. The targeted gap from the prior session (distributed immutability across nodes) showed improvement — student reached the correct answer — but required scaffolding on the critical 51% + multi-node control step. Student's initial explanation confused intra-chain hash cascade with cross-node attack difficulty.",
+        "confidence": 0.65,
+        "status": "shaky",
+        "source_notes": "Can reproduce complete block structure and explain the hash-cascade mechanism independently. The distributed-immutability link (why simultaneous alteration across all nodes is impractical) required scaffolding for the second session in a row — the student understands hash chaining but does not yet independently connect it to the distributed consensus requirement. Next session should ask the student to explain, without prompting, why a blockchain with only 3 nodes would be insecure, to isolate whether the node-count-to-security link is now internalized."
+      },
+      "blockchain_dev_tools": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "smart_contract_security": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "distributed_systems_fundamentals": {
+        "evidence_summary": "Multiple Level 5 independent responses across the session (availability rationale, consensus framing, fork terminology, avalanche-hash connection to vote integrity), with one mid-session scaffolded impasse on shared state that was independently resolved at session close. Trajectory improved across the session, with no scaffolding needed in the second half.",
+        "confidence": 0.62,
+        "status": "shaky",
+        "source_notes": "Can define distributed systems correctly including shared state (demonstrated at session close), independently names consensus and fork terminology, and connects hash-based integrity to vote verification. Residual gap: when asked how nodes verify message legitimacy, student's first instinct was IP-tracing rather than cryptographic verification — was redirected but did not articulate why IP fails. Next session should test whether the student can independently explain what happens when two honest nodes produce conflicting state updates — probing the practical mechanics of consensus resolution beyond just 'voting.'"
+      },
+      "solidity_basics": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "decentralized_applications": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      }
+    }
+  }
+}
