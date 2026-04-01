@@ -2,11 +2,11 @@
   "student_id": "gui_001",
   "name": "Gui",
   "module_id": "mod_05_blockchain",
-  "last_updated": "2026-04-01T15:09:56.562519+00:00",
+  "last_updated": "2026-04-01T15:28:12.521614+00:00",
   "session_state": {
     "energy_checkin": "high",
-    "sessions_completed": 7,
-    "last_session_at": "2026-04-01T15:09:56.562491+00:00"
+    "sessions_completed": 8,
+    "last_session_at": "2026-04-01T15:28:12.521604+00:00"
   },
   "concept_map": {
     "distributed_systems_fundamentals": {
@@ -100,28 +100,28 @@
       "source_notes": null
     },
     "ethereum_platform": {
-      "evidence_summary": null,
-      "confidence": 0,
-      "status": "unseen",
-      "source_notes": null
+      "evidence_summary": "One Level 5 moment (high-level automation framing) and one knowledge-transfer correction (full vs. light nodes) at the opening, but structural mechanics — why distributed execution is necessary and what gas does — remained unresolved after scaffolding. Trajectory was flat-to-declining once structural depth was required.",
+      "confidence": 0.28,
+      "status": "weak",
+      "source_notes": "Grasps the surface value proposition of Ethereum (code automation, eliminating intermediaries) independently, but cannot yet explain why contracts must be executed across multiple nodes or articulate the efficiency-vs-decentralization trade-off that motivates this design. The student self-reported this as their main confusion point. Next session should open by asking the student to explain, in their own words, why a single trusted server couldn't just run the smart contract — to probe whether the distributed-execution rationale has been internalized."
     },
     "smart_contracts": {
-      "evidence_summary": null,
-      "confidence": 0,
-      "status": "unseen",
-      "source_notes": null
+      "evidence_summary": "Level 5 recall of the term and a strong Level 6 generative example (multi-party real estate disbursement with automatic title transfer) at first exposure, with no scaffolding required for either moment. No further depth was probed, leaving the trajectory flat after the strong opening.",
+      "confidence": 0.45,
+      "status": "shaky",
+      "source_notes": "Independently generated a well-structured multi-party conditional execution example (real estate transaction with automatic payment and title transfer) that captures the core smart contract logic without prompting. The concept of condition-triggered, intermediary-free code execution appears genuinely understood at the conceptual level. Next session should test whether this understanding extends to edge cases: what happens if a condition is never met, or if the code has a bug — to probe whether the student understands the immutability and trustlessness constraints that make smart contract design non-trivial."
     },
     "solidity_basics": {
-      "evidence_summary": null,
-      "confidence": 0,
-      "status": "unseen",
-      "source_notes": null
+      "evidence_summary": "Level 5 recall of Solidity's name, followed by two minimal Level 2 correct guesses (count increments; transactions queue) that were directly readable from the provided code example. No independent reasoning about Solidity mechanics or the EVM execution model was demonstrated. Trajectory was flat throughout.",
+      "confidence": 0.2,
+      "status": "weak",
+      "source_notes": "Can name Solidity as Ethereum's language and correctly read a simple counter contract, but has not demonstrated any reasoning about Solidity's type system, function visibility, state persistence, or the execution model. The sequential transaction answer ('fila?') was a tentative guess, not confident reasoning. Next session should walk through a slightly more complex contract (e.g., one with a conditional and a state variable that tracks multiple callers) and ask the student to predict behavior before running it, to develop active rather than passive code-reading."
     },
     "blockchain_dev_tools": {
-      "evidence_summary": null,
-      "confidence": 0,
-      "status": "unseen",
-      "source_notes": null
+      "evidence_summary": "Single Level 6 evidence moment late in the session: student independently described their own migration from Remix to Hardhat, articulating the specific friction point (manual deploy cycle) and the concrete benefit of local testing — going substantially beyond the Companion's one-sentence descriptions of each tool.",
+      "confidence": 0.5,
+      "status": "shaky",
+      "source_notes": "Has practical hands-on experience with both Remix and Hardhat and independently articulated the trade-off that drives tool selection (rapid prototyping vs. automated local testing). This is real operational knowledge, not surface-level recall. Coverage did not extend to test scripting, deployment configuration, or network simulation. Next session should build on this practical foundation by asking the student to describe how they currently structure a Hardhat test, to assess depth beyond the deploy-vs-test distinction."
     },
     "crypto_wallets": {
       "evidence_summary": null,
@@ -136,10 +136,10 @@
       "source_notes": null
     },
     "sequence_diagrams": {
-      "evidence_summary": null,
-      "confidence": 0,
-      "status": "unseen",
-      "source_notes": null
+      "evidence_summary": "The Companion presented one example and asked the student to produce a simple diagram; the student explicitly opted out ('Vamos pular isso'). No engagement with the concept at any level was observed.",
+      "confidence": 0.05,
+      "status": "weak",
+      "source_notes": "Concept was presented with one worked example but the student declined the practice exercise entirely. No understanding can be inferred. Next session must treat this as completely unlearned and should start with a very simple worked example before asking the student to produce one — the login scenario the student skipped would be an appropriate starting point."
     },
     "hash_functions": {
       "evidence_summary": "Started at Level 0 (genuine knowledge gap — could not identify hash as an alternative to encryption), but after a single analogical prompt immediately recalled and independently applied the concept (Level 3 → Level 5), then demonstrated Level 5 on the salt/collision problem and Level 6 in the final document synthesis. One weak Level 2 error (partial hash comparison) was self-corrected with explanation after one follow-up question. Strongly improving trajectory across the second half.",
