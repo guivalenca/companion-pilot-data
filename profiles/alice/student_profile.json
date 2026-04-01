@@ -2,11 +2,11 @@
   "student_id": "alice_001",
   "name": "Alice",
   "module_id": "mod_05_blockchain",
-  "last_updated": "2026-04-01T21:35:02.166870+00:00",
+  "last_updated": "2026-04-01T23:27:33.887220+00:00",
   "session_state": {
     "energy_checkin": "high",
-    "sessions_completed": 1,
-    "last_session_at": "2026-04-01T21:35:02.166857+00:00"
+    "sessions_completed": 2,
+    "last_session_at": "2026-04-01T23:27:33.887205+00:00"
   },
   "concept_map": {
     "digital_signatures": {
@@ -124,10 +124,10 @@
       "source_notes": null
     },
     "information_security_fundamentals": {
-      "evidence_summary": "All evidence moments were Level 5 or Level 6 (no scaffolding required at any point), with the student independently invoking the avalanche effect — a technical concept the Companion had not introduced — as the mechanism behind hash-based integrity. Trajectory was flat at a high level throughout.",
-      "confidence": 0.62,
+      "evidence_summary": "Student correctly answered the targeted probe from the prior session (hash-integrity in a multi-node system) on first attempt without scaffolding, confirming durable retention of the hash-integrity link. One scaffolded step on the cross-node comparison mechanism, followed by independent synthesis connecting hash recalculation, chain cascades, and 51% attack as the combined security barrier.",
+      "confidence": 0.68,
       "status": "shaky",
-      "source_notes": "Demonstrated strong prior familiarity with hash functions (including the avalanche effect) and independently connected confidentiality, integrity, and authenticity to cryptographic mechanisms before they were introduced. Next session should open by asking the student to explain how hash functions specifically guarantee integrity in a multi-node system — without scaffolding — to confirm whether the hash-integrity link is durably understood or was a retrieval of surface-level vocabulary."
+      "source_notes": "Durably understands that hash functions make single-copy tampering detectable via the avalanche effect, and independently synthesized the combined 51%+hash-cascade barrier to undetected network-wide adulteración. Minor gap: did not independently articulate how nodes identify which copy is correct (cross-node comparison) — required one scaffolded prompt. Next session should probe whether the student can explain the role of cryptographic signatures in authenticating the *source* of a message, not just its integrity — moving toward asymmetric cryptography."
     },
     "mining": {
       "evidence_summary": null,
@@ -160,10 +160,10 @@
       "source_notes": null
     },
     "blockchain_types": {
-      "evidence_summary": "Consistent Level 5 responses throughout — correct labels for all three types, appropriate use cases, and independent reasoning about the regulatory motivation for consortium models. No scaffolding required. No Level 6 evidence (no novel analogies or unprompted connections).",
-      "confidence": 0.5,
+      "evidence_summary": "Early responses on the private blockchain tradeoff were scaffolded and one was incorrect (proposing integrity/confidentiality as what private chains sacrifice). Trajectory improved through the session, with independent Level 5 responses on 51% attack exploitation, the business rationale for private chains, and the consortium balance. The targeted tradeoff probe from the prior session was addressed but required scaffolding to reach.",
+      "confidence": 0.58,
       "status": "shaky",
-      "source_notes": "Can correctly identify and differentiate public, private, and consortium blockchains and articulate use cases for each. Provided independent reasoning about access control in regulated industries. Next session should probe whether the student understands the tradeoffs between types (e.g., what is sacrificed in a private blockchain compared to a public one) rather than just their definitions and use cases."
+      "source_notes": "Can articulate the security/decentralization tradeoff in private blockchains and the 51% attack mechanism after scaffolding; independently explains business and regulatory motivations for private and consortium models. Residual gap: initially framed what private chains sacrifice as 'integrity and confidentiality' rather than decentralization/attack-resistance — did not explain why this framing was wrong. Next session should ask the student to compare two specific scenarios (e.g., a 3-node private chain vs. a 10,000-node public chain) and reason about relative attack costs without prompting, to confirm whether the node-count-to-security intuition is durable."
     },
     "proof_of_work": {
       "evidence_summary": null,
@@ -178,10 +178,10 @@
       "source_notes": null
     },
     "blockchain_fundamentals": {
-      "evidence_summary": "Level 6 evidence present — student independently produced the full block structure (hash + previous hash + data + timestamp) plus the chain-integrity rationale without any scaffolding or prior Companion framing. Consistent Level 5 elsewhere. No scaffolding required at any point in this section.",
-      "confidence": 0.6,
+      "evidence_summary": "Block structure reproduced at Level 5 without scaffolding, confirming retention. The targeted gap from the prior session (distributed immutability across nodes) showed improvement — student reached the correct answer — but required scaffolding on the critical 51% + multi-node control step. Student's initial explanation confused intra-chain hash cascade with cross-node attack difficulty.",
+      "confidence": 0.65,
       "status": "shaky",
-      "source_notes": "Independently constructed the complete block structure and articulated why chaining creates tamper-evidence before the Companion confirmed it. Can explain that falsifying one block requires altering all subsequent blocks. Next session should test whether the student can articulate what makes simultaneous alteration across all nodes difficult — this is the step the Companion added after her answer — to probe the depth of the distributed-immutability link."
+      "source_notes": "Can reproduce complete block structure and explain the hash-cascade mechanism independently. The distributed-immutability link (why simultaneous alteration across all nodes is impractical) required scaffolding for the second session in a row — the student understands hash chaining but does not yet independently connect it to the distributed consensus requirement. Next session should ask the student to explain, without prompting, why a blockchain with only 3 nodes would be insecure, to isolate whether the node-count-to-security link is now internalized."
     },
     "blockchain_dev_tools": {
       "evidence_summary": null,
@@ -196,10 +196,10 @@
       "source_notes": null
     },
     "distributed_systems_fundamentals": {
-      "evidence_summary": "Multiple Level 5 independent responses throughout (version conflict, availability risk, motivation for decentralization) and one clear Level 6 moment (self-generated 'gold mine' attack-target analogy). One scaffolded definition impasse mid-session was resolved independently by session close. Trajectory improved across the session.",
-      "confidence": 0.52,
+      "evidence_summary": "Multiple Level 5 independent responses across the session (availability rationale, consensus framing, fork terminology, avalanche-hash connection to vote integrity), with one mid-session scaffolded impasse on shared state that was independently resolved at session close. Trajectory improved across the session, with no scaffolding needed in the second half.",
+      "confidence": 0.62,
       "status": "shaky",
-      "source_notes": "Independently identified availability and single-point-of-attack risks, and constructed the core motivation for decentralization without prompting. Initial definition omitted ongoing inter-node communication, was corrected with one scaffolding prompt, and was reproduced correctly at session end. Next session should test whether the student can explain what 'coordination without a center' means in practice — e.g., what happens when two nodes disagree — to probe the depth of the consensus concept she touched on but did not fully develop."
+      "source_notes": "Can define distributed systems correctly including shared state (demonstrated at session close), independently names consensus and fork terminology, and connects hash-based integrity to vote verification. Residual gap: when asked how nodes verify message legitimacy, student's first instinct was IP-tracing rather than cryptographic verification — was redirected but did not articulate why IP fails. Next session should test whether the student can independently explain what happens when two honest nodes produce conflicting state updates — probing the practical mechanics of consensus resolution beyond just 'voting.'"
     },
     "solidity_basics": {
       "evidence_summary": null,
