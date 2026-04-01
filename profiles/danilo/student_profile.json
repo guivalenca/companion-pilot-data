@@ -2,11 +2,11 @@
   "student_id": "danilo_001",
   "name": "Danilo",
   "module_id": "mod_05_blockchain",
-  "last_updated": "2026-04-01T20:06:46.972519+00:00",
+  "last_updated": "2026-04-01T21:04:01.131644+00:00",
   "session_state": {
     "energy_checkin": "high",
-    "sessions_completed": 2,
-    "last_session_at": "2026-04-01T20:06:46.972508+00:00"
+    "sessions_completed": 3,
+    "last_session_at": "2026-04-01T21:04:01.131630+00:00"
   },
   "concept_map": {
     "digital_signatures": {
@@ -16,10 +16,10 @@
       "source_notes": null
     },
     "cryptography_introduction": {
-      "evidence_summary": null,
-      "confidence": 0.0,
-      "status": "unseen",
-      "source_notes": null
+      "evidence_summary": "Student showed genuine Level 5 independence early (encryption definition, hash/encryption distinction), then regressed into a key-as-hash misconception requiring multiple scaffolding steps to resolve, closing with passive acknowledgment. Trajectory was declining after the early peak — the session probed deeper and the student's independent understanding did not hold.",
+      "confidence": 0.28,
+      "status": "weak",
+      "source_notes": "Can articulate what encryption does (transforms text irreversibly-for-outsiders) and correctly distinguishes it from hashing, but formed a confused model of what a key *is* — twice described the key as a hash, and could only abandon this framing through scaffolding, not through independent reasoning. Next session should ask the student to define 'chave criptográfica' in their own words before any new material, specifically probing whether they can separate the key (parameter) from the transformation (algorithm) without prompting."
     },
     "crypto_wallets": {
       "evidence_summary": null,
@@ -28,10 +28,10 @@
       "source_notes": null
     },
     "symmetric_cryptography": {
-      "evidence_summary": null,
-      "confidence": 0.0,
-      "status": "unseen",
-      "source_notes": null
+      "evidence_summary": "Only one substantive engagement — a Level 1 echo of the Companion's definition of 'simétrica.' Student explicitly could not engage with the key-distribution problem. No independent reasoning demonstrated on this concept.",
+      "confidence": 0.15,
+      "status": "weak",
+      "source_notes": "Symmetric cryptography was introduced and immediately defined by the Companion; student echoed the definition without demonstrating understanding. Could not engage with the key-exchange problem at all. Next session should ask the student to explain what symmetric cryptography is and why it has a fundamental limitation, before any scaffolding — this will reveal whether the echo-level exposure produced any retention."
     },
     "distributed_hash_tables": {
       "evidence_summary": null,
@@ -64,10 +64,10 @@
       "source_notes": null
     },
     "hash_functions": {
-      "evidence_summary": null,
-      "confidence": 0.0,
-      "status": "unseen",
-      "source_notes": null
+      "evidence_summary": "One Level 5 moment early (independent correct statement that hashes cannot be reversed), with no further coverage of the concept in this session. No opportunity to assess depth, mechanism, or properties beyond directionality.",
+      "confidence": 0.22,
+      "status": "weak",
+      "source_notes": "Correctly and independently stated that hashes are irreversible, which is an improvement over the prior sessions where this was confused. However, prior profile notes the student cannot explain *why* hashes are irreversible — that gap was not addressed this session. Next session should open by asking the student to explain what a hash function does and why it cannot be reversed, before introducing any new cryptography material."
     },
     "smart_contracts": {
       "evidence_summary": null,
@@ -172,10 +172,10 @@
       "source_notes": null
     },
     "asymmetric_cryptography": {
-      "evidence_summary": null,
-      "confidence": 0.0,
-      "status": "unseen",
-      "source_notes": null
+      "evidence_summary": "Multiple Level 5 moments across the second half of the session (symmetric vs. asymmetric distinction, key-distribution mechanism, paired-key generalization), with a partially-scaffolded arrival on the signature direction and one corrected surface error on the combined sigilo+autenticidade scenario. Trajectory was improving with strongest evidence in the latter half.",
+      "confidence": 0.4,
+      "status": "shaky",
+      "source_notes": "Can explain the symmetric/asymmetric distinction and the key-distribution solution independently and in own words. Formed a correct paired-key generalization ('ambas as chaves podem ser usadas para criptografar e descriptografar') without prompting. Still confused about when to use each key for authentication vs. confidentiality under novel combined scenarios — inverted remetente/destinatário in the final test and needed correction. Next session should present a fresh authentication-only scenario and ask the student to reason through which keys to use before any scaffolding, to test whether the paired-key model is stable."
     },
     "blockchain_fundamentals": {
       "evidence_summary": "Session opened with a direct test of the prior session's noted gap (PoW cost mechanism). Student produced Level 1 restatement of the chain-break effect, then a Level 2 response with a reactivated hash-invertibility misconception ('decifrar'), then a Level 2 response with an incorrect target description ('igual ao id do bloco'). All corrections were supplied by the Companion. Trajectory was flat-weak; the prior session score of 0.55 is not supported by this session's evidence.",
