@@ -1,0 +1,12 @@
+{
+  "student_id": "admin_001",
+  "name": "Admin",
+  "module_id": "mod_05_blockchain",
+  "last_updated": null,
+  "session_state": {
+    "energy_checkin": "high",
+    "sessions_completed": 0,
+    "last_session_at": null
+  },
+  "concept_map": {}
+}
