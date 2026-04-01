@@ -2,11 +2,11 @@
   "student_id": "gui_001",
   "name": "Gui",
   "module_id": "mod_05_blockchain",
-  "last_updated": "2026-03-30T22:34:21.416576+00:00",
+  "last_updated": "2026-04-01T15:09:56.562519+00:00",
   "session_state": {
     "energy_checkin": "high",
-    "sessions_completed": 6,
-    "last_session_at": "2026-03-30T22:34:21.416527+00:00"
+    "sessions_completed": 7,
+    "last_session_at": "2026-04-01T15:09:56.562491+00:00"
   },
   "concept_map": {
     "distributed_systems_fundamentals": {
@@ -82,16 +82,16 @@
       "source_notes": "Arrived with a functional mental model of cryptography as a key-based data-obfuscation tool and independently connected it to both confidentiality and integrity goals. Generated the signing-as-inversion insight without scaffolding and synthesized encryption + hash into a complete document security solution unprompted. Next session can build directly on this foundation toward deeper mechanics — key exchange protocols, certificate authorities, or the formal distinction between encryption and signing — without re-establishing the basics."
     },
     "hash_tables": {
-      "evidence_summary": null,
-      "confidence": 0,
-      "status": "unseen",
-      "source_notes": null
+      "evidence_summary": "Multiple Level 5 independent moments from the session's opening — student independently identified hashing as the solution before the concept was introduced, correctly executed modular arithmetic unprompted, and enumerated both collision strategies without scaffolding. One Level 4 self-correction on O(n) notation scope. Trajectory was consistently high with no scaffolding dependency observed.",
+      "confidence": 0.55,
+      "status": "shaky",
+      "source_notes": "Arrived with partial hash knowledge from prior sessions and immediately applied it to the table structure independently. Can execute modular indexing correctly and describe both linear probing and chaining without prompting. Self-corrected on O(n) worst-case scope with substantive explanation. Next session should test procedural execution on a novel collision scenario (e.g., deletion with tombstone flags) to verify the concept holds under edge cases the student has not yet encountered."
     },
     "distributed_hash_tables": {
-      "evidence_summary": null,
-      "confidence": 0,
-      "status": "unseen",
-      "source_notes": null
+      "evidence_summary": "Trajectory improved from early Level 2 scaffolded responses to Level 5 and Level 6 independent reasoning by mid-session. Student independently identified the load-imbalance weakness of consistent hashing, independently connected DHT to blockchain's node-churn problem, independently critiqued consistent hashing as insufficient for multi-node failure scenarios, and independently described the neighbor-query propagation mechanism for new node discovery — all without prompting.",
+      "confidence": 0.52,
+      "status": "shaky",
+      "source_notes": "Demonstrates genuine ownership of the core DHT value proposition — can independently explain why consistent hashing minimizes migration cost during node churn, identify its load-distribution weakness, and describe decentralized node discovery through neighbor propagation. The early confusion about clockwise directionality resolved quickly. Next session should probe whether the student can independently explain consistent hashing's circle metaphor and virtual nodes without the scaffolding that was present in this session's opening."
     },
     "solidity_mappings": {
       "evidence_summary": null,
@@ -184,10 +184,10 @@
       "source_notes": null
     },
     "computer_networks_fundamentals": {
-      "evidence_summary": null,
-      "confidence": 0,
-      "status": "unseen",
-      "source_notes": null
+      "evidence_summary": "Uneven coverage: early DNS understanding was scaffolded and incomplete (centralized framing required correction; DNS hierarchy was accepted but not reformulated independently), while packet-switching rationale and routing propagation were explained independently and correctly at Level 5. Student explicitly self-identified a knowledge gap in protocol layers (OSI model). Trajectory was flat-to-improving, with stronger independent performance in the second half of the section.",
+      "confidence": 0.35,
+      "status": "shaky",
+      "source_notes": "Can independently reason about why packet-switching exists (resilience and parallelism) and how routing tables propagate through neighbor queries, but does not have an independent model of DNS resolution or the TCP/IP stack. The centralized-DNS starting assumption suggests incomplete mental model of how distributed naming works. Next session should open by asking the student to explain what happens between typing a URL and receiving a response — without any prompting — to assess which parts of the flow are independently retrievable."
     },
     "tor_and_anonymity": {
       "evidence_summary": null,
@@ -196,10 +196,10 @@
       "source_notes": null
     },
     "p2p_networks": {
-      "evidence_summary": null,
-      "confidence": 0,
-      "status": "unseen",
-      "source_notes": null
+      "evidence_summary": "Consistently strong Level 5 and Level 6 evidence throughout the section. Student independently reconstructed BitTorrent's core mechanism from earlier DHT content, contributed an independent insight about availability-driven latency (not prompted), and produced a closing synthesis that extended the Companion's 'resilience' framing into a four-part failure-mode taxonomy. Trajectory was uniformly strong, benefiting from cumulative context built during the DHT discussion.",
+      "confidence": 0.52,
+      "status": "shaky",
+      "source_notes": "Owns the P2P value proposition — can independently articulate why decentralized file distribution outperforms central servers and connect it to blockchain's infrastructure requirements. Generated a four-part resilience taxonomy (malicious actors, bad actors, node departure, node arrival) independently. A loose Tor-P2P association was noted but is not a structural misconception — it reflects incomplete boundary-drawing between network types rather than an incorrect model. Next session should distinguish P2P from client-server and from Tor/overlay networks to sharpen the student's mental model of when each architecture applies."
     },
     "distributed_system_architectures": {
       "evidence_summary": null,
