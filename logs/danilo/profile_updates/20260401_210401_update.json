@@ -1,0 +1,465 @@
+{
+  "timestamp": "2026-04-01T21:04:01.132136+00:00",
+  "input": "<session_transcript>\nStudent: <concept_graph_summary>\nSession: Session 3 — Cryptography\nTheme: How does cryptography work?\nConcepts to cover: 4\n\n---\n\n## 1. Introdução à Criptografia\nconcept_id: cryptography_introduction\nStatus: UNSEEN (confidence: 0.0)\nKnowledge type: conceptual\nHard prerequisites: Fundamentos de Segurança da Informação (SHAKY)\nAction: Full teaching — student has never seen this concept. Start with a concrete example or analogy, then build toward the principle through Socratic questioning.\n\n## 2. Funções Hash Criptográficas\nconcept_id: hash_functions\nStatus: UNSEEN (confidence: 0.0)\nKnowledge type: conceptual\nHard prerequisites: Introdução à Criptografia (UNSEEN)\nAction: Full teaching — student has never seen this concept. Start with a concrete example or analogy, then build toward the principle through Socratic questioning.\n\n## 3. Criptografia Simétrica\nconcept_id: symmetric_cryptography\nStatus: UNSEEN (confidence: 0.0)\nKnowledge type: conceptual\nHard prerequisites: Introdução à Criptografia (UNSEEN)\nAction: Full teaching — student has never seen this concept. Start with a concrete example or analogy, then build toward the principle through Socratic questioning.\n\n## 4. Criptografia Assimétrica\nconcept_id: asymmetric_cryptography\nStatus: UNSEEN (confidence: 0.0)\nKnowledge type: conceptual\nHard prerequisites: Introdução à Criptografia (UNSEEN)\nAction: Full teaching — student has never seen this concept. Start with a concrete example or analogy, then build toward the principle through Socratic questioning.\n\n</concept_graph_summary>\n\n<student_profile>\n{\n  \"student_id\": \"danilo_001\",\n  \"name\": \"Danilo\",\n  \"module_id\": \"mod_05_blockchain\",\n  \"last_updated\": \"2026-04-01T20:06:46.972519+00:00\",\n  \"session_state\": {\n    \"energy_checkin\": \"high\",\n    \"sessions_completed\": 2,\n    \"last_session_at\": \"2026-04-01T20:06:46.972508+00:00\"\n  },\n  \"concept_map\": {\n    \"digital_signatures\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"cryptography_introduction\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"crypto_wallets\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"symmetric_cryptography\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"distributed_hash_tables\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"ethereum_platform\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"byzantine_generals_problem\": {\n      \"evidence_summary\": \"Student produced two Level 5 responses without scaffolding: independently arrived at the majority-threshold intuition, and invoked the 2/3 threshold by name before the Companion stated it. Also independently identified financial incentive as the motive for Byzantine behavior. One passive acknowledgment moment mid-session was the weakest point. Trajectory improved across the session.\",\n      \"confidence\": 0.45,\n      \"status\": \"shaky\",\n      \"source_notes\": \"Independently invoked the 2/3 threshold and identified financial incentives as the driver of dishonest behavior — both unprompted. Did not demonstrate the procedural mechanics (how a BFT algorithm actually produces consensus across rounds), and the 1/3 fault tolerance limit was supplied by the Companion rather than derived by the student. Next session should ask the student to work through a four-node example with one traitor to test whether the threshold reasoning transfers to procedure.\"\n    },\n    \"sequence_diagrams\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"p2p_networks\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"hash_functions\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"smart_contracts\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"tor_and_anonymity\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"distributed_system_architectures\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"computer_networks_fundamentals\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"bitcoin_as_case_study\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"ipfs_and_nfts\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"solidity_mappings\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"evm_and_virtualization\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"consensus_mechanisms\": {\n      \"evidence_summary\": \"Student could not arrive at PoW or PoS independently (Level 2 early, required the Companion to introduce both). After introduction, demonstrated Level 5 reasoning: correctly connected fraud attempts to economic loss across both mechanisms, and independently mapped PoW vs. PoS trade-offs including the PoS centralization concern. Trajectory improved from scaffolded start to independent analysis after concept introduction.\",\n      \"confidence\": 0.4,\n      \"status\": \"shaky\",\n      \"source_notes\": \"Could not generate the PoW/PoS mechanisms without the Companion introducing them, but once introduced, correctly identified the PoS centralization-of-power concern independently — a non-trivial insight. Summary of PoS as 'mais rede, mais poder' slightly imprecise (stake, not network size). Next session should test whether the student can name and explain both mechanisms from scratch, and ask them to construct a scenario where PoS centralization creates a specific problem.\"\n    },\n    \"information_security_fundamentals\": {\n      \"evidence_summary\": \"Level 5 on integrity, authentication, and confidentiality (all independent, all unprompted); Level 6 on the self-generated hash-dependency model; Level 3 recovery on hash verification after an incorrect inversion assumption. Trajectory improved from one scaffolded moment to consistent independence. Weak misconception about hash invertibility was functionally resolved but not theoretically explained.\",\n      \"confidence\": 0.48,\n      \"status\": \"shaky\",\n      \"source_notes\": \"Independently named all three pillars of the CIA triad and described digital signatures correctly. Constructed an original conceptual model of hash-like character dependency. Does not understand *why* hash functions are one-directional — accepted the correction procedurally and applied it correctly in the blockchain section, but could not explain the theoretical basis. Next session should open by asking the student to explain why hashes cannot be reversed.\"\n    },\n    \"mining\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"blockchain_trilemma\": {\n      \"evidence_summary\": \"One strong Level 5 moment (independently traced scalability → synchronization risk → security risk), followed by a weak persisting misconception (decentralization reduces security via reversibility framing), followed by Level 2 scaffolded recovery. Trajectory mixed; the misconception was corrected by the Companion but not resolved by the student.\",\n      \"confidence\": 0.28,\n      \"status\": \"weak\",\n      \"source_notes\": \"Conflated decentralization with reduced security by importing the reversibility framing from prior sessions — stated 'descentralização = falta de segurança,' which inverts the correct relationship. Companion corrected this, but the student's recovery was a scaffolded echo. Can trace the scalability-security tension independently but does not yet have a stable model of where decentralization sits in the trilemma. Next session should ask the student to explain the trilemma in their own words before any scaffolding, specifically probing the decentralization-scalability (not security) link.\"\n    },\n    \"game_theory_and_trust\": {\n      \"evidence_summary\": \"Student produced Level 5 reasoning on detection probability independently, reached penalty logic after one scaffolded prompt, and generated a compressed but accurate synthesis ('o desonesto sai no prejuízo') that qualifies as Level 6 — their own formulation of the rational-choice incentive structure. Trajectory improved; the generative closing synthesis is the strongest signal.\",\n      \"confidence\": 0.5,\n      \"status\": \"shaky\",\n      \"source_notes\": \"Student synthesized the game-theoretic incentive logic independently as 'o desonesto sai no prejuízo' — a correct compressed formulation that was their own, not the Companion's phrasing. Reasoning about penalty was only partially arrived at independently (required one scaffolding prompt to reach the economic cost angle). Next session should probe whether the student can articulate the distinction between 'hard to get away with' (detection) and 'not worth trying' (economic penalty) as separate mechanisms, since the session showed the student defaults to the detection framing first.\"\n    },\n    \"software_testing_and_quality\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"hash_tables\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"blockchain_types\": {\n      \"evidence_summary\": \"Level 5 on public/private distinctions and the absence of proof-of-work in permissioned chains; Level 6 on the hybrid model — student independently generated the central bank digital currency use case (Real Digital), which the Companion confirmed as accurate. One Level 2 moment (imprecise framing of permissioned blockchain as 'auditors validating before upload') but followed by continued independent performance.\",\n      \"confidence\": 0.54,\n      \"status\": \"shaky\",\n      \"source_notes\": \"Generated the CBDC use case for consortium blockchain independently and accurately. Correctly identified that permissioned chains gain computational efficiency by removing proof of work. Framing of permissioned blockchain as 'pre-upload auditor validation' rather than 'restricted write access' suggests the structural definition may be slightly imprecise — next session should ask the student to define the three types in their own words before any scaffolding to verify the distinctions held.\"\n    },\n    \"proof_of_work\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"asymmetric_cryptography\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"blockchain_fundamentals\": {\n      \"evidence_summary\": \"Session opened with a direct test of the prior session's noted gap (PoW cost mechanism). Student produced Level 1 restatement of the chain-break effect, then a Level 2 response with a reactivated hash-invertibility misconception ('decifrar'), then a Level 2 response with an incorrect target description ('igual ao id do bloco'). All corrections were supplied by the Companion. Trajectory was flat-weak; the prior session score of 0.55 is not supported by this session's evidence.\",\n      \"confidence\": 0.42,\n      \"status\": \"shaky\",\n      \"source_notes\": \"The hash invertibility misconception (framing proof-of-work as 'deciphering' a hash) persisted from Session 1 and reappeared unprompted. Student described the brute-force iteration correctly but named the target incorrectly — 'matching the block ID' rather than 'satisfying a leading-zeros condition.' Next session should ask the student to explain step-by-step what a miner does when solving a block, without any scaffolding, before introducing new material.\"\n    },\n    \"blockchain_dev_tools\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"smart_contract_security\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"distributed_systems_fundamentals\": {\n      \"evidence_summary\": \"Multiple Level 5 responses produced independently (consensus, redundancy, institutional trade-offs) and two Level 6 moments (unprompted theory-of-games reference as adversarial framing; original PIX fraud analogy illustrating irreversibility). Trajectory was strongly improving across the session with no evidence of scaffolding dependence.\",\n      \"confidence\": 0.52,\n      \"status\": \"shaky\",\n      \"source_notes\": \"Generated the irreversibility trade-off independently using a PIX fraud example, and connected adversarial incentives to game theory without prompting. Can articulate decentralization, redundancy, and irreversibility correctly. Final synthesis ('você ganha segurança e perde suporte') was under-specified relative to earlier reasoning — next session should probe whether the student can articulate the autonomy/reversibility trade-off without the vocabulary being provided.\"\n    },\n    \"solidity_basics\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"decentralized_applications\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    }\n  }\n}\n</student_profile>\n\nComeçar sessão\n\nTutor: Danilo, terceira sessão — vamos direto ao ponto.\n\nImagina que você precisa mandar uma mensagem secreta pra alguém, mas o único caminho disponível passa por um carteiro que pode ler tudo. Como você faria pra garantir que só o destinatário entendesse a mensagem?\n\nStudent: tudo isso ja foi falado, antes da cessao ser enecrrada a forca. volte para onde paramos:\n\nDanilo, terceira sessão — vamos direto ao ponto.\n\nImagina que você precisa mandar uma mensagem secreta pra alguém do outro lado do mundo, mas qualquer pessoa no caminho pode interceptar o que você envia. Como você garantiria que só o destinatário consegue ler?\n\ncriptografando a mensagem como uma chave que apenas ambos tem acesso\nC\nCompanion\nBoa intuição. Agora me diz — como os dois combinaram essa chave sem que ninguém no meio interceptasse ela também?\n\nusando uma chave privada e outra publica\nC\nCompanion\nInteressante — você já pulou pra frente. Mas volta um segundo: se a chave precisa ser combinada antes de qualquer comunicação segura existir, como você faz isso num mundo onde qualquer mensagem pode ser interceptada?\n\nnao sei\nC\nCompanion\nTudo bem — essa é exatamente a tensão central da criptografia, e é o problema que ela veio resolver.\n\nPensa assim: antes de existir criptografia moderna, dois espiões que precisavam trocar mensagens secretas tinham que se encontrar pessoalmente primeiro pra combinar um código. O problema: e se eles nunca puderem se encontrar?\n\nEsse é o nó que a criptografia resolve. O que você acha que mudou pra tornar isso possível sem o encontro presencial?\n\ncada espiao teria uma chave publica, aberta ao publico. eles usariam a chave privada para criptografar a mensagem, e o outro usaria a publica e sua propria privada para descriptografar\nC\nCompanion\nVocê está no caminho certo, e chegou lá intuitivamente — isso é bom. Mas antes de aprofundar esse mecanismo, quero garantir que a base tá firme.\n\nVocê mencionou \"criptografar\" e \"descriptografar\" — o que você entende que essas operações fazem com uma mensagem, fundamentalmente?\n\naplica um algoritmo que torna o texto irrreconhecivle depois de aplicado\nC\nCompanion\nExato. E uma coisa importante: você lembra da sessão passada, quando discutimos hashes? Você chegou a dizer que hash era como \"decifrar\" — e a gente corrigiu isso.\n\nPensa aqui: tem diferença entre uma operação que embaralha algo de forma que pode ser desembaralhada, e uma que embaralha de forma que não pode ser revertida?\n\nsim. funcao hash nao pode ser desembaralhada. criptografia pode\nC\nCompanion\nPerfeito — essa distinção é fundamental e você acabou de enunciar ela sozinho.\n\nEntão a criptografia, por definição, precisa ser reversível — senão seria inútil pra comunicação. O que isso implica sobre o papel da chave nesse processo?\n\na chave deve ser um hash irreversilvel, para descriptografar uma mensagem criptografada. se o hash é seguro e praticamente imposivel de descobrir, logo, a criptografia que usou tal hash como chave tambem ';e\nErro: 502\na chave deve ser um hash irreversilvel, para descriptografar uma mensagem criptografada. se o hash é seguro e praticamente imposivel de descobrir, logo, a criptografia que usou tal hash como chave tambem ';e\n\nTutor: Boa — você tava construindo um raciocínio interessante antes do erro técnico.\n\nMas tem um deslize aí: se a chave fosse um hash irreversível, como o destinatário conseguiria descriptografar a mensagem? Lembra que a gente acabou de dizer que criptografia precisa ser reversível por definição.\n\nO que a chave precisa ser, então, pra permitir tanto criptografar quanto descriptografar?\n\nStudent: a chave precisa ser um hash reversivel\n\nTutor: Hash reversível é uma contradição — hash, por definição, não é reversível. Você mesmo disse isso duas mensagens atrás.\n\nSepara as duas coisas: a chave não é um hash. O que é uma chave, no sentido mais simples? Pensa numa chave de porta mesmo — o que ela faz?\n\nStudent: a chave é um identificador único\n\nTutor: Quase — mas mais do que identificar, ela *faz* algo. Uma chave de porta não só identifica a fechadura, ela abre e fecha.\n\nNa criptografia, a chave é um valor matemático que a operação de embaralhamento usa como parâmetro. Muda a chave, muda o resultado.\n\nEntão: se a mesma chave que embaralha pode também desembaralhar, como você chamaria esse tipo de sistema?\n\nStudent: deterministico\n\nTutor: Boa associação — determinístico é uma propriedade real disso. Mas o nome que a criptografia usa pra esse sistema é mais simples: quando a mesma chave serve pra criptografar e descriptografar, chamamos de criptografia **simétrica**.\n\nFaz sentido o nome? Por que você acha que escolheram \"simétrica\"?\n\nStudent: simetria pois a mesma chave serve pra criptografar e descriptografar\n\nTutor: Exato. E aí voltamos pro problema que você tocou lá no início da sessão — se os dois lados precisam da mesma chave, como eles combinam essa chave sem que ninguém no meio intercepte?\n\nStudent: nao sei\n\nTutor: Esse é exatamente o problema que quebrou a criptografia simétrica por séculos — e que levou à invenção de algo novo.\n\nPensa assim: e se não precisasse compartilhar a chave secreta? E se cada pessoa tivesse duas chaves — uma que qualquer um pode ver, e uma que só ela conhece?\n\nO que você acha que cada uma dessas chaves faria?\n\nStudent: nao sei tambem\n\nTutor: Tudo bem. Deixa eu dar uma âncora concreta.\n\nImagina um cadeado aberto que você distribui pra todo mundo. Qualquer pessoa pode colocar uma mensagem numa caixa e fechar com esse cadeado. Mas só você tem a chave pra abrir — porque só você tem a chave privada.\n\nO cadeado aberto é a chave pública. A chave pra abrir é a privada.\n\nQuem você acha que pode criptografar uma mensagem pra você nesse sistema?\n\nStudent: sei la\n\nTutor: Qualquer pessoa — porque o cadeado (chave pública) é aberto a todo mundo.\n\nE só você consegue descriptografar, porque só você tem a chave privada.\n\nEsse sistema — duas chaves diferentes, uma pra criptografar e outra pra descriptografar — é a criptografia **assimétrica**.\n\nAgora me diz: qual é a diferença principal entre simétrica e assimétrica?\n\nStudent: na simetrica a mesma chave pode criptografar e descriptografar. na assimetrica chaves diferentes sao usadas para criptografar de descriptografar\n\nTutor: Perfeito. Agora conecta isso ao problema que a simétrica não resolvia: como a assimétrica resolve o problema de combinar a chave sem se encontrar pessoalmente?\n\nStudent: vc usa a chave pubica da pessoa para criptografar. manda pra ele e ela usa a privada para descriptografar. so ela pode descriptografar\n\nTutor: Exato — e nunca houve troca de segredo. A chave pública pode circular abertamente sem risco nenhum.\n\nAgora um cenário diferente: e se eu quiser provar que fui *eu* que mandei uma mensagem — não que ela é secreta, mas que é autêntica? Como você usaria as duas chaves pra isso?\n\nStudent: um modelo de assinatura. eu crio um hash da minha chave privada. uso a chave publica da pessoa para criptografar esse hash e mando para ela. ela descriptografa e obtem meu hash. bate para ver se são iguais, se for, ela sabe que a mensagem é autentica\n\nTutor: Quase lá — mas tem um detalhe invertido. Pensa: se você criptografar com a chave pública *dela*, só ela consegue descriptografar. Mas aí você provou autenticidade pra ela, ou só sigilo?\n\nPra provar que foi *você* que mandou, qual chave você usaria pra criptografar o hash?\n\nStudent: minha chave publica?\n\nTutor: Pensa de novo — se você criptografar com sua chave pública, qualquer pessoa consegue descriptografar. Isso provaria que foi você?\n\nTem só uma chave que só você possui.\n\nStudent: a privada\n\nTutor: Exato. Você criptografa o hash com sua chave **privada**. Qualquer pessoa usa sua chave pública pra descriptografar — e se funcionar, prova que só você poderia ter gerado aquilo.\n\nEntão a assinatura digital é exatamente isso. Recapitula pra mim: o que o destinatário faz pra verificar que a mensagem é autêntica?\n\nStudent: entao ambas as chaves podem ser usadas tanto para criptogarafar (quando eu mando o hash) tanto para descriptogrfar (quando recebo mensagem de outra pessoa)\n\nTutor: Exato — você chegou nisso sozinho. Cada chave criptografa o que a outra descriptografa. São matematicamente pareadas.\n\nAgora fecha o raciocínio: a gente cobriu simétrica, assimétrica, e tocou em assinatura digital. O que foi mais difícil de entender hoje, e por quê?\n\nStudent: criptografia assimetrica\n\nTutor: O que especificamente travou — o conceito das duas chaves, ou quando usar cada uma?\n\nStudent: quando usar cada uma\n\nTutor: Faz sentido. Deixa eu dar uma regra simples:\n\n- Quer **sigilo**? Criptografa com a chave pública do destinatário. Só ele abre.\n- Quer **autenticidade**? Criptografa com sua chave privada. Qualquer um verifica, mas só você poderia ter gerado.\n\nAgora testa você mesmo: eu quero mandar uma mensagem que é ao mesmo tempo secreta *e* comprovadamente minha. Quais chaves eu uso e em que ordem?\n\nStudent: primeiramete a publica do rementente para sigilo e a minha privada para autenticidade\n\nTutor: Quase — só inverteu o remetente. Você quer sigilo pro *destinatário*, não pro remetente.\n\nTenta de novo: pra garantir que só o destinatário lê, qual chave você usa?\n\nStudent: publica dele\n\nTutor: Isso. Então a ordem completa?\n\nStudent: primeiramete a publica do destinatario para sigilo e do remetente privada para autenticidade\n\nTutor: Perfeito. Você chegou lá.\n\nSessão encerrada com três conceitos sólidos: simétrica, assimétrica, e assinatura digital. Na próxima a gente entra em funções hash com mais profundidade — você tem uma lacuna de lá da sessão anterior sobre por que hash não pode ser revertido, e vamos atacar isso direto.\n</session_transcript>\n\n<concept_graph>\nSession: Session 3 — Cryptography\nTheme: How does cryptography work?\nConcepts to cover: 4\n\n---\n\n## 1. Introdução à Criptografia\nconcept_id: cryptography_introduction\nStatus: UNSEEN (confidence: 0.0)\nKnowledge type: conceptual\nHard prerequisites: Fundamentos de Segurança da Informação (SHAKY)\nAction: Full teaching — student has never seen this concept. Start with a concrete example or analogy, then build toward the principle through Socratic questioning.\n\n## 2. Funções Hash Criptográficas\nconcept_id: hash_functions\nStatus: UNSEEN (confidence: 0.0)\nKnowledge type: conceptual\nHard prerequisites: Introdução à Criptografia (UNSEEN)\nAction: Full teaching — student has never seen this concept. Start with a concrete example or analogy, then build toward the principle through Socratic questioning.\n\n## 3. Criptografia Simétrica\nconcept_id: symmetric_cryptography\nStatus: UNSEEN (confidence: 0.0)\nKnowledge type: conceptual\nHard prerequisites: Introdução à Criptografia (UNSEEN)\nAction: Full teaching — student has never seen this concept. Start with a concrete example or analogy, then build toward the principle through Socratic questioning.\n\n## 4. Criptografia Assimétrica\nconcept_id: asymmetric_cryptography\nStatus: UNSEEN (confidence: 0.0)\nKnowledge type: conceptual\nHard prerequisites: Introdução à Criptografia (UNSEEN)\nAction: Full teaching — student has never seen this concept. Start with a concrete example or analogy, then build toward the principle through Socratic questioning.\n\n</concept_graph>\n\n<student_profile>\n{\n  \"student_id\": \"danilo_001\",\n  \"name\": \"Danilo\",\n  \"module_id\": \"mod_05_blockchain\",\n  \"last_updated\": \"2026-04-01T20:06:46.972519+00:00\",\n  \"session_state\": {\n    \"energy_checkin\": \"high\",\n    \"sessions_completed\": 2,\n    \"last_session_at\": \"2026-04-01T20:06:46.972508+00:00\"\n  },\n  \"concept_map\": {\n    \"digital_signatures\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"cryptography_introduction\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"crypto_wallets\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"symmetric_cryptography\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"distributed_hash_tables\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"ethereum_platform\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"byzantine_generals_problem\": {\n      \"evidence_summary\": \"Student produced two Level 5 responses without scaffolding: independently arrived at the majority-threshold intuition, and invoked the 2/3 threshold by name before the Companion stated it. Also independently identified financial incentive as the motive for Byzantine behavior. One passive acknowledgment moment mid-session was the weakest point. Trajectory improved across the session.\",\n      \"confidence\": 0.45,\n      \"status\": \"shaky\",\n      \"source_notes\": \"Independently invoked the 2/3 threshold and identified financial incentives as the driver of dishonest behavior — both unprompted. Did not demonstrate the procedural mechanics (how a BFT algorithm actually produces consensus across rounds), and the 1/3 fault tolerance limit was supplied by the Companion rather than derived by the student. Next session should ask the student to work through a four-node example with one traitor to test whether the threshold reasoning transfers to procedure.\"\n    },\n    \"sequence_diagrams\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"p2p_networks\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"hash_functions\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"smart_contracts\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"tor_and_anonymity\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"distributed_system_architectures\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"computer_networks_fundamentals\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"bitcoin_as_case_study\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"ipfs_and_nfts\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"solidity_mappings\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"evm_and_virtualization\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"consensus_mechanisms\": {\n      \"evidence_summary\": \"Student could not arrive at PoW or PoS independently (Level 2 early, required the Companion to introduce both). After introduction, demonstrated Level 5 reasoning: correctly connected fraud attempts to economic loss across both mechanisms, and independently mapped PoW vs. PoS trade-offs including the PoS centralization concern. Trajectory improved from scaffolded start to independent analysis after concept introduction.\",\n      \"confidence\": 0.4,\n      \"status\": \"shaky\",\n      \"source_notes\": \"Could not generate the PoW/PoS mechanisms without the Companion introducing them, but once introduced, correctly identified the PoS centralization-of-power concern independently — a non-trivial insight. Summary of PoS as 'mais rede, mais poder' slightly imprecise (stake, not network size). Next session should test whether the student can name and explain both mechanisms from scratch, and ask them to construct a scenario where PoS centralization creates a specific problem.\"\n    },\n    \"information_security_fundamentals\": {\n      \"evidence_summary\": \"Level 5 on integrity, authentication, and confidentiality (all independent, all unprompted); Level 6 on the self-generated hash-dependency model; Level 3 recovery on hash verification after an incorrect inversion assumption. Trajectory improved from one scaffolded moment to consistent independence. Weak misconception about hash invertibility was functionally resolved but not theoretically explained.\",\n      \"confidence\": 0.48,\n      \"status\": \"shaky\",\n      \"source_notes\": \"Independently named all three pillars of the CIA triad and described digital signatures correctly. Constructed an original conceptual model of hash-like character dependency. Does not understand *why* hash functions are one-directional — accepted the correction procedurally and applied it correctly in the blockchain section, but could not explain the theoretical basis. Next session should open by asking the student to explain why hashes cannot be reversed.\"\n    },\n    \"mining\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"blockchain_trilemma\": {\n      \"evidence_summary\": \"One strong Level 5 moment (independently traced scalability → synchronization risk → security risk), followed by a weak persisting misconception (decentralization reduces security via reversibility framing), followed by Level 2 scaffolded recovery. Trajectory mixed; the misconception was corrected by the Companion but not resolved by the student.\",\n      \"confidence\": 0.28,\n      \"status\": \"weak\",\n      \"source_notes\": \"Conflated decentralization with reduced security by importing the reversibility framing from prior sessions — stated 'descentralização = falta de segurança,' which inverts the correct relationship. Companion corrected this, but the student's recovery was a scaffolded echo. Can trace the scalability-security tension independently but does not yet have a stable model of where decentralization sits in the trilemma. Next session should ask the student to explain the trilemma in their own words before any scaffolding, specifically probing the decentralization-scalability (not security) link.\"\n    },\n    \"game_theory_and_trust\": {\n      \"evidence_summary\": \"Student produced Level 5 reasoning on detection probability independently, reached penalty logic after one scaffolded prompt, and generated a compressed but accurate synthesis ('o desonesto sai no prejuízo') that qualifies as Level 6 — their own formulation of the rational-choice incentive structure. Trajectory improved; the generative closing synthesis is the strongest signal.\",\n      \"confidence\": 0.5,\n      \"status\": \"shaky\",\n      \"source_notes\": \"Student synthesized the game-theoretic incentive logic independently as 'o desonesto sai no prejuízo' — a correct compressed formulation that was their own, not the Companion's phrasing. Reasoning about penalty was only partially arrived at independently (required one scaffolding prompt to reach the economic cost angle). Next session should probe whether the student can articulate the distinction between 'hard to get away with' (detection) and 'not worth trying' (economic penalty) as separate mechanisms, since the session showed the student defaults to the detection framing first.\"\n    },\n    \"software_testing_and_quality\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"hash_tables\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"blockchain_types\": {\n      \"evidence_summary\": \"Level 5 on public/private distinctions and the absence of proof-of-work in permissioned chains; Level 6 on the hybrid model — student independently generated the central bank digital currency use case (Real Digital), which the Companion confirmed as accurate. One Level 2 moment (imprecise framing of permissioned blockchain as 'auditors validating before upload') but followed by continued independent performance.\",\n      \"confidence\": 0.54,\n      \"status\": \"shaky\",\n      \"source_notes\": \"Generated the CBDC use case for consortium blockchain independently and accurately. Correctly identified that permissioned chains gain computational efficiency by removing proof of work. Framing of permissioned blockchain as 'pre-upload auditor validation' rather than 'restricted write access' suggests the structural definition may be slightly imprecise — next session should ask the student to define the three types in their own words before any scaffolding to verify the distinctions held.\"\n    },\n    \"proof_of_work\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"asymmetric_cryptography\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"blockchain_fundamentals\": {\n      \"evidence_summary\": \"Session opened with a direct test of the prior session's noted gap (PoW cost mechanism). Student produced Level 1 restatement of the chain-break effect, then a Level 2 response with a reactivated hash-invertibility misconception ('decifrar'), then a Level 2 response with an incorrect target description ('igual ao id do bloco'). All corrections were supplied by the Companion. Trajectory was flat-weak; the prior session score of 0.55 is not supported by this session's evidence.\",\n      \"confidence\": 0.42,\n      \"status\": \"shaky\",\n      \"source_notes\": \"The hash invertibility misconception (framing proof-of-work as 'deciphering' a hash) persisted from Session 1 and reappeared unprompted. Student described the brute-force iteration correctly but named the target incorrectly — 'matching the block ID' rather than 'satisfying a leading-zeros condition.' Next session should ask the student to explain step-by-step what a miner does when solving a block, without any scaffolding, before introducing new material.\"\n    },\n    \"blockchain_dev_tools\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"smart_contract_security\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"distributed_systems_fundamentals\": {\n      \"evidence_summary\": \"Multiple Level 5 responses produced independently (consensus, redundancy, institutional trade-offs) and two Level 6 moments (unprompted theory-of-games reference as adversarial framing; original PIX fraud analogy illustrating irreversibility). Trajectory was strongly improving across the session with no evidence of scaffolding dependence.\",\n      \"confidence\": 0.52,\n      \"status\": \"shaky\",\n      \"source_notes\": \"Generated the irreversibility trade-off independently using a PIX fraud example, and connected adversarial incentives to game theory without prompting. Can articulate decentralization, redundancy, and irreversibility correctly. Final synthesis ('você ganha segurança e perde suporte') was under-specified relative to earlier reasoning — next session should probe whether the student can articulate the autonomy/reversibility trade-off without the vocabulary being provided.\"\n    },\n    \"solidity_basics\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    },\n    \"decentralized_applications\": {\n      \"evidence_summary\": null,\n      \"confidence\": 0.0,\n      \"status\": \"unseen\",\n      \"source_notes\": null\n    }\n  }\n}\n</student_profile>",
+  "raw_response": "I will work through all four concepts in the concept graph before scoring.\n\n---\n\n## PHASE 1 — EVIDENCE ANALYSIS\n\n<concept_analysis id=\"cryptography_introduction\">\n\nEvidence moments:\n- Level 5 (early): When asked how to ensure only the recipient can read a message, student independently stated \"criptografando a mensagem como uma chave que apenas ambos tem acesso\" — a correct first-principles answer with the right intuition before any scaffolding.\n- Level 5 (early): When pressed on how two parties share a key in a world where messages can be intercepted, student jumped ahead and said \"usando uma chave privada e outra publica\" — directionally correct and unprompted, though it skipped the foundational problem being established.\n- Level 5 (mid): When asked what encrypt/decrypt operations do fundamentally, student independently answered \"aplica um algoritmo que torna o texto irreconhecível depois de aplicado\" — correct and in their own words.\n- Level 5 (mid): Immediately and correctly distinguished hash (irreversible) from encryption (reversible) without scaffolding: \"funcao hash nao pode ser desembaralhada. criptografia pode\" — a clean, independent, accurate distinction.\n- Negative Evidence — Active Misconception (mid): Student proposed \"a chave deve ser um hash irreversível\" as the mechanism enabling decryption. This conflates the key with a hash and contradicts the reversibility constraint the student had just stated. This is a structural confusion between the key and the transformation function.\n- Level 2 (mid): After the Companion pointed out the contradiction, student responded \"a chave precisa ser um hash reversível\" — still incorrectly using \"hash,\" just removing the \"irreversível.\" Required further scaffolding to separate \"key\" from \"hash.\"\n- Level 2 (mid): After the Companion drew the door-key analogy, student described the key as \"um identificador único\" — partially correct (unique, yes) but missing the operative function. Still needed one more scaffolding step.\n- Level 1 (mid): After the Companion explained the key as a mathematical parameter and introduced the term \"symmetric,\" student responded \"simetria pois a mesma chave serve pra criptografar e descriptografar\" — echoes the Companion's framing directly.\n\nTrajectory: Mixed. Started strongly (Level 5 on encryption definition and hash/encryption distinction), then regressed to a misconception about keys-as-hashes, recovered only with scaffolding, and closed with passive acknowledgment. The early independent performance was genuine but the key-concept confusion dominated the middle of the session.\n\nMisconceptions: A persisting misconception about keys being hashes — student first said the key \"deve ser um hash irreversível\" and when corrected stated \"um hash reversível,\" failing to abandon the hash framing entirely. The Companion resolved this through scaffolding (door analogy, mathematical parameter explanation) but the student never articulated *why* a key is not a hash in their own terms. This is a weak-to-moderate misconception: the student accepted the correction procedurally but did not demonstrate conceptual understanding of the distinction.\n\nAssessment rationale: Independence criterion is partially satisfied — the student demonstrated genuine Level 5 understanding on the encryption/hash distinction and the core purpose of cryptography, but the key-mechanism confusion (attempting to define keys as hashes) was not self-corrected and required multiple scaffolding steps. The trajectory criterion is negative here — the session started with independent performance and declined when conceptual depth was probed. The misconception constraint applies (weak misconception, cap at 0.6), though the score would likely fall below that cap on evidence alone given the scaffolded recovery on the key concept.\n\n</concept_analysis>\n\n---\n\n<concept_analysis id=\"hash_functions\">\n\nEvidence moments:\n- Level 5 (early): Student independently and correctly distinguished hash from encryption — \"funcao hash nao pode ser desembaralhada. criptografia pode\" — without any scaffolding prompt specifically targeting this distinction.\n- Level 0 (remainder of session): Hash functions were not discussed further in this session beyond this one moment. The session focused on symmetric and asymmetric cryptography, and the Companion explicitly deferred hash functions to the next session.\n\nTrajectory: Not applicable — only one brief moment of engagement, followed by no further coverage.\n\nMisconceptions: No new misconceptions introduced this session. The prior hash-invertibility misconception (from sessions 1 and 2) is not confirmed resolved — the student correctly stated the directional irreversibility of hashes here, but the prior profile notes they do not understand *why* hashes are irreversible (theoretical basis missing). That gap was not addressed in this session.\n\nAssessment rationale: The single Level 5 moment on hash irreversibility is a genuine positive signal — the student produced the correct distinction independently and in their own words. However, this was the only hash-specific engagement in the session; no opportunity arose to test depth (mechanism, properties like collision resistance, use cases). Per the Level 0 rule, prior score carries forward with this one positive data point providing marginal uplift from 0.0. The prior profile places hash_functions at 0.0 (unseen), but this session provided one independent correct statement about the core irreversibility property. The calibration anchor for first exposure with mostly Level 0 (no opportunity) but one Level 5 moment suggests a modest score in the 0.20–0.30 range.\n\n</concept_analysis>\n\n---\n\n<concept_analysis id=\"symmetric_cryptography\">\n\nEvidence moments:\n- Level 1 (mid): After the Companion introduced the term \"simétrica\" and asked why the name was chosen, student responded \"simetria pois a mesma chave serve pra criptografar e descriptografar\" — accurate but directly mirrors the Companion's prior framing.\n- Level 2 (mid): When asked how the two parties would exchange the shared key, student said \"nao sei\" — did not arrive at the key-distribution problem independently.\n- Level 1 (late): No further independent engagement with symmetric cryptography after this point; all subsequent discussion moved to asymmetric.\n\nTrajectory: Flat-weak. The student only engaged with symmetric cryptography through one echoed acknowledgment and one explicit \"don't know.\" No independent reasoning was demonstrated beyond passively accepting the Companion's definition.\n\nMisconceptions: None directly on symmetric cryptography. However, the earlier confusion about keys-as-hashes was occurring during the symmetric cryptography section, suggesting the student had not formed a stable model of what a key is — which is foundational to understanding symmetric cryptography.\n\nAssessment rationale: Independence criterion is not satisfied — the student's only substantive response was a Level 1 echo of the Companion's framing, and they explicitly could not engage with the key-distribution problem. This is first exposure with only passive acknowledgment and one scaffolded-but-not-even-performed response. The calibration anchor for passive acknowledgment only (0.10–0.20) applies here.\n\n</concept_analysis>\n\n---\n\n<concept_analysis id=\"asymmetric_cryptography\">\n\nEvidence moments:\n- Level 2 (early, pre-session context from transcript recall): Student had intuitively jumped to \"usando uma chave privada e outra publica\" early, but this was forward-looking intuition without mechanism — not evidence of understanding the asymmetric system.\n- Level 1 (mid): When asked what each of the two keys (public/private) would do in the cadeado analogy, student said \"sei la\" — no engagement.\n- Level 5 (mid-late): After the Companion explained the padlock analogy and asked who can encrypt a message in this system, student did not answer (Companion answered it), but when asked for the core difference between symmetric and asymmetric, student produced: \"na simetrica a mesma chave pode criptografar e descriptografar. na assimetrica chaves diferentes sao usadas para criptografar e descriptografar\" — accurate, in own words, unprompted formulation.\n- Level 5 (late): When asked how asymmetric solves the key-distribution problem, student answered independently and correctly: \"vc usa a chave publica da pessoa para criptografar. manda pra ele e ela usa a privada para descriptografar. so ela pode descriptografar\" — correct mechanism, own words.\n- Level 5 (late): For the digital signature scenario (proving authorship), student independently proposed: \"um modelo de assinatura. eu crio um hash da minha chave privada. uso a chave publica da pessoa para criptografar esse hash e mando para ela\" — directionally correct in invoking hash + signing concept, though the mechanism had an error (using recipient's public key instead of own private key). This shows genuine reasoning about authentication, not just echoing.\n- Level 4 (late): Student self-corrected partially on the signature scenario. When asked which key proves authorship, student first guessed \"minha chave publica?\" — incorrect. Then after one clarifying question (\"tem só uma chave que só você possui\"), student arrived at \"a privada\" — not full self-correction but a guided arrival.\n- Level 5 (late): After receiving the correct mechanism, student demonstrated understanding: \"entao ambas as chaves podem ser usadas tanto para criptografar (quando eu mando o hash) tanto para descriptografar (quando recebo mensagem de outra pessoa)\" — correct synthesis and generalization of the paired-key property, in own words.\n- Level 2 (late): On the combined sigilo+autenticidade scenario, student initially said \"primeiramente a publica do remetente para sigilo\" — inverted remetente/destinatário. After one correction prompt, arrived at \"publica do destinatário para sigilo e do remetente privada para autenticidade\" — correct, but required the correction.\n\nTrajectory: Improving. Began with complete disengagement (\"sei la\"), moved through one strong independent definition (Level 5), then independent mechanism articulation (Level 5), then a partially self-corrected impasse on signature direction, then a correct generalization, then a near-correct combined scenario with one error corrected by scaffolding. The trend is genuinely upward with the later evidence being the stronger signal.\n\nMisconceptions: One error in the signature scenario (using recipient's public key instead of own private key for signing) — this reflects confusion about which direction the key-pair operates for authentication vs. confidentiality. This was corrected by the Companion through one scaffolding question, and the student arrived at \"a privada\" correctly. The subsequent generalization (\"ambas as chaves podem ser usadas para criptografar e descriptografar\") suggests the student formed a correct paired-key model by the end. The remetente/destinatário inversion in the final scenario was a surface-level slip, not a structural misconception — corrected immediately. I classify the signature-direction error as a resolved weak misconception, since the student reached the correct answer and then generalized correctly.\n\nAssessment rationale: Independence criterion is moderately satisfied — the student produced three Level 5 responses independently (symmetric vs. asymmetric definition, key-distribution mechanism, paired-key generalization). The trajectory was improving, which per the trajectory criterion weights later evidence more heavily — and later evidence was stronger. Self-correction was partial (required one scaffolding question on the signature direction, not full self-correction). The misconception was resolved, which does not cap the score. First exposure with multiple Level 5 moments and improving trajectory places this at the upper end of the first-exposure range (0.20–0.45), potentially slightly above given the multiple independent correct responses.\n\n</concept_analysis>\n\n---\n\n## PHASE 2 — SCORING\n\n<scores>\n{\n  \"cryptography_introduction\": {\n    \"evidence_summary\": \"Student showed genuine Level 5 independence early (encryption definition, hash/encryption distinction), then regressed into a key-as-hash misconception requiring multiple scaffolding steps to resolve, closing with passive acknowledgment. Trajectory was declining after the early peak — the session probed deeper and the student's independent understanding did not hold.\",\n    \"confidence\": 0.28,\n    \"status\": \"weak\",\n    \"source_notes\": \"Can articulate what encryption does (transforms text irreversibly-for-outsiders) and correctly distinguishes it from hashing, but formed a confused model of what a key *is* — twice described the key as a hash, and could only abandon this framing through scaffolding, not through independent reasoning. Next session should ask the student to define 'chave criptográfica' in their own words before any new material, specifically probing whether they can separate the key (parameter) from the transformation (algorithm) without prompting.\"\n  },\n  \"hash_functions\": {\n    \"evidence_summary\": \"One Level 5 moment early (independent correct statement that hashes cannot be reversed), with no further coverage of the concept in this session. No opportunity to assess depth, mechanism, or properties beyond directionality.\",\n    \"confidence\": 0.22,\n    \"status\": \"weak\",\n    \"source_notes\": \"Correctly and independently stated that hashes are irreversible, which is an improvement over the prior sessions where this was confused. However, prior profile notes the student cannot explain *why* hashes are irreversible — that gap was not addressed this session. Next session should open by asking the student to explain what a hash function does and why it cannot be reversed, before introducing any new cryptography material.\"\n  },\n  \"symmetric_cryptography\": {\n    \"evidence_summary\": \"Only one substantive engagement — a Level 1 echo of the Companion's definition of 'simétrica.' Student explicitly could not engage with the key-distribution problem. No independent reasoning demonstrated on this concept.\",\n    \"confidence\": 0.15,\n    \"status\": \"weak\",\n    \"source_notes\": \"Symmetric cryptography was introduced and immediately defined by the Companion; student echoed the definition without demonstrating understanding. Could not engage with the key-exchange problem at all. Next session should ask the student to explain what symmetric cryptography is and why it has a fundamental limitation, before any scaffolding — this will reveal whether the echo-level exposure produced any retention.\"\n  },\n  \"asymmetric_cryptography\": {\n    \"evidence_summary\": \"Multiple Level 5 moments across the second half of the session (symmetric vs. asymmetric distinction, key-distribution mechanism, paired-key generalization), with a partially-scaffolded arrival on the signature direction and one corrected surface error on the combined sigilo+autenticidade scenario. Trajectory was improving with strongest evidence in the latter half.\",\n    \"confidence\": 0.40,\n    \"status\": \"shaky\",\n    \"source_notes\": \"Can explain the symmetric/asymmetric distinction and the key-distribution solution independently and in own words. Formed a correct paired-key generalization ('ambas as chaves podem ser usadas para criptografar e descriptografar') without prompting. Still confused about when to use each key for authentication vs. confidentiality under novel combined scenarios — inverted remetente/destinatário in the final test and needed correction. Next session should present a fresh authentication-only scenario and ask the student to reason through which keys to use before any scaffolding, to test whether the paired-key model is stable.\"\n  }\n}\n</scores>",
+  "parsed_scores": {
+    "cryptography_introduction": {
+      "evidence_summary": "Student showed genuine Level 5 independence early (encryption definition, hash/encryption distinction), then regressed into a key-as-hash misconception requiring multiple scaffolding steps to resolve, closing with passive acknowledgment. Trajectory was declining after the early peak — the session probed deeper and the student's independent understanding did not hold.",
+      "confidence": 0.28,
+      "status": "weak",
+      "source_notes": "Can articulate what encryption does (transforms text irreversibly-for-outsiders) and correctly distinguishes it from hashing, but formed a confused model of what a key *is* — twice described the key as a hash, and could only abandon this framing through scaffolding, not through independent reasoning. Next session should ask the student to define 'chave criptográfica' in their own words before any new material, specifically probing whether they can separate the key (parameter) from the transformation (algorithm) without prompting."
+    },
+    "hash_functions": {
+      "evidence_summary": "One Level 5 moment early (independent correct statement that hashes cannot be reversed), with no further coverage of the concept in this session. No opportunity to assess depth, mechanism, or properties beyond directionality.",
+      "confidence": 0.22,
+      "status": "weak",
+      "source_notes": "Correctly and independently stated that hashes are irreversible, which is an improvement over the prior sessions where this was confused. However, prior profile notes the student cannot explain *why* hashes are irreversible — that gap was not addressed this session. Next session should open by asking the student to explain what a hash function does and why it cannot be reversed, before introducing any new cryptography material."
+    },
+    "symmetric_cryptography": {
+      "evidence_summary": "Only one substantive engagement — a Level 1 echo of the Companion's definition of 'simétrica.' Student explicitly could not engage with the key-distribution problem. No independent reasoning demonstrated on this concept.",
+      "confidence": 0.15,
+      "status": "weak",
+      "source_notes": "Symmetric cryptography was introduced and immediately defined by the Companion; student echoed the definition without demonstrating understanding. Could not engage with the key-exchange problem at all. Next session should ask the student to explain what symmetric cryptography is and why it has a fundamental limitation, before any scaffolding — this will reveal whether the echo-level exposure produced any retention."
+    },
+    "asymmetric_cryptography": {
+      "evidence_summary": "Multiple Level 5 moments across the second half of the session (symmetric vs. asymmetric distinction, key-distribution mechanism, paired-key generalization), with a partially-scaffolded arrival on the signature direction and one corrected surface error on the combined sigilo+autenticidade scenario. Trajectory was improving with strongest evidence in the latter half.",
+      "confidence": 0.4,
+      "status": "shaky",
+      "source_notes": "Can explain the symmetric/asymmetric distinction and the key-distribution solution independently and in own words. Formed a correct paired-key generalization ('ambas as chaves podem ser usadas para criptografar e descriptografar') without prompting. Still confused about when to use each key for authentication vs. confidentiality under novel combined scenarios — inverted remetente/destinatário in the final test and needed correction. Next session should present a fresh authentication-only scenario and ask the student to reason through which keys to use before any scaffolding, to test whether the paired-key model is stable."
+    }
+  },
+  "before_profile": {
+    "student_id": "danilo_001",
+    "name": "Danilo",
+    "module_id": "mod_05_blockchain",
+    "last_updated": "2026-04-01T20:06:46.972519+00:00",
+    "session_state": {
+      "energy_checkin": "high",
+      "sessions_completed": 2,
+      "last_session_at": "2026-04-01T20:06:46.972508+00:00"
+    },
+    "concept_map": {
+      "digital_signatures": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "cryptography_introduction": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "crypto_wallets": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "symmetric_cryptography": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "distributed_hash_tables": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "ethereum_platform": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "byzantine_generals_problem": {
+        "evidence_summary": "Student produced two Level 5 responses without scaffolding: independently arrived at the majority-threshold intuition, and invoked the 2/3 threshold by name before the Companion stated it. Also independently identified financial incentive as the motive for Byzantine behavior. One passive acknowledgment moment mid-session was the weakest point. Trajectory improved across the session.",
+        "confidence": 0.45,
+        "status": "shaky",
+        "source_notes": "Independently invoked the 2/3 threshold and identified financial incentives as the driver of dishonest behavior — both unprompted. Did not demonstrate the procedural mechanics (how a BFT algorithm actually produces consensus across rounds), and the 1/3 fault tolerance limit was supplied by the Companion rather than derived by the student. Next session should ask the student to work through a four-node example with one traitor to test whether the threshold reasoning transfers to procedure."
+      },
+      "sequence_diagrams": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "p2p_networks": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "hash_functions": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "smart_contracts": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "tor_and_anonymity": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "distributed_system_architectures": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "computer_networks_fundamentals": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "bitcoin_as_case_study": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "ipfs_and_nfts": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "solidity_mappings": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "evm_and_virtualization": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "consensus_mechanisms": {
+        "evidence_summary": "Student could not arrive at PoW or PoS independently (Level 2 early, required the Companion to introduce both). After introduction, demonstrated Level 5 reasoning: correctly connected fraud attempts to economic loss across both mechanisms, and independently mapped PoW vs. PoS trade-offs including the PoS centralization concern. Trajectory improved from scaffolded start to independent analysis after concept introduction.",
+        "confidence": 0.4,
+        "status": "shaky",
+        "source_notes": "Could not generate the PoW/PoS mechanisms without the Companion introducing them, but once introduced, correctly identified the PoS centralization-of-power concern independently — a non-trivial insight. Summary of PoS as 'mais rede, mais poder' slightly imprecise (stake, not network size). Next session should test whether the student can name and explain both mechanisms from scratch, and ask them to construct a scenario where PoS centralization creates a specific problem."
+      },
+      "information_security_fundamentals": {
+        "evidence_summary": "Level 5 on integrity, authentication, and confidentiality (all independent, all unprompted); Level 6 on the self-generated hash-dependency model; Level 3 recovery on hash verification after an incorrect inversion assumption. Trajectory improved from one scaffolded moment to consistent independence. Weak misconception about hash invertibility was functionally resolved but not theoretically explained.",
+        "confidence": 0.48,
+        "status": "shaky",
+        "source_notes": "Independently named all three pillars of the CIA triad and described digital signatures correctly. Constructed an original conceptual model of hash-like character dependency. Does not understand *why* hash functions are one-directional — accepted the correction procedurally and applied it correctly in the blockchain section, but could not explain the theoretical basis. Next session should open by asking the student to explain why hashes cannot be reversed."
+      },
+      "mining": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "blockchain_trilemma": {
+        "evidence_summary": "One strong Level 5 moment (independently traced scalability → synchronization risk → security risk), followed by a weak persisting misconception (decentralization reduces security via reversibility framing), followed by Level 2 scaffolded recovery. Trajectory mixed; the misconception was corrected by the Companion but not resolved by the student.",
+        "confidence": 0.28,
+        "status": "weak",
+        "source_notes": "Conflated decentralization with reduced security by importing the reversibility framing from prior sessions — stated 'descentralização = falta de segurança,' which inverts the correct relationship. Companion corrected this, but the student's recovery was a scaffolded echo. Can trace the scalability-security tension independently but does not yet have a stable model of where decentralization sits in the trilemma. Next session should ask the student to explain the trilemma in their own words before any scaffolding, specifically probing the decentralization-scalability (not security) link."
+      },
+      "game_theory_and_trust": {
+        "evidence_summary": "Student produced Level 5 reasoning on detection probability independently, reached penalty logic after one scaffolded prompt, and generated a compressed but accurate synthesis ('o desonesto sai no prejuízo') that qualifies as Level 6 — their own formulation of the rational-choice incentive structure. Trajectory improved; the generative closing synthesis is the strongest signal.",
+        "confidence": 0.5,
+        "status": "shaky",
+        "source_notes": "Student synthesized the game-theoretic incentive logic independently as 'o desonesto sai no prejuízo' — a correct compressed formulation that was their own, not the Companion's phrasing. Reasoning about penalty was only partially arrived at independently (required one scaffolding prompt to reach the economic cost angle). Next session should probe whether the student can articulate the distinction between 'hard to get away with' (detection) and 'not worth trying' (economic penalty) as separate mechanisms, since the session showed the student defaults to the detection framing first."
+      },
+      "software_testing_and_quality": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "hash_tables": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "blockchain_types": {
+        "evidence_summary": "Level 5 on public/private distinctions and the absence of proof-of-work in permissioned chains; Level 6 on the hybrid model — student independently generated the central bank digital currency use case (Real Digital), which the Companion confirmed as accurate. One Level 2 moment (imprecise framing of permissioned blockchain as 'auditors validating before upload') but followed by continued independent performance.",
+        "confidence": 0.54,
+        "status": "shaky",
+        "source_notes": "Generated the CBDC use case for consortium blockchain independently and accurately. Correctly identified that permissioned chains gain computational efficiency by removing proof of work. Framing of permissioned blockchain as 'pre-upload auditor validation' rather than 'restricted write access' suggests the structural definition may be slightly imprecise — next session should ask the student to define the three types in their own words before any scaffolding to verify the distinctions held."
+      },
+      "proof_of_work": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "asymmetric_cryptography": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "blockchain_fundamentals": {
+        "evidence_summary": "Session opened with a direct test of the prior session's noted gap (PoW cost mechanism). Student produced Level 1 restatement of the chain-break effect, then a Level 2 response with a reactivated hash-invertibility misconception ('decifrar'), then a Level 2 response with an incorrect target description ('igual ao id do bloco'). All corrections were supplied by the Companion. Trajectory was flat-weak; the prior session score of 0.55 is not supported by this session's evidence.",
+        "confidence": 0.42,
+        "status": "shaky",
+        "source_notes": "The hash invertibility misconception (framing proof-of-work as 'deciphering' a hash) persisted from Session 1 and reappeared unprompted. Student described the brute-force iteration correctly but named the target incorrectly — 'matching the block ID' rather than 'satisfying a leading-zeros condition.' Next session should ask the student to explain step-by-step what a miner does when solving a block, without any scaffolding, before introducing new material."
+      },
+      "blockchain_dev_tools": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "smart_contract_security": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "distributed_systems_fundamentals": {
+        "evidence_summary": "Multiple Level 5 responses produced independently (consensus, redundancy, institutional trade-offs) and two Level 6 moments (unprompted theory-of-games reference as adversarial framing; original PIX fraud analogy illustrating irreversibility). Trajectory was strongly improving across the session with no evidence of scaffolding dependence.",
+        "confidence": 0.52,
+        "status": "shaky",
+        "source_notes": "Generated the irreversibility trade-off independently using a PIX fraud example, and connected adversarial incentives to game theory without prompting. Can articulate decentralization, redundancy, and irreversibility correctly. Final synthesis ('você ganha segurança e perde suporte') was under-specified relative to earlier reasoning — next session should probe whether the student can articulate the autonomy/reversibility trade-off without the vocabulary being provided."
+      },
+      "solidity_basics": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "decentralized_applications": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      }
+    }
+  },
+  "after_profile": {
+    "student_id": "danilo_001",
+    "name": "Danilo",
+    "module_id": "mod_05_blockchain",
+    "last_updated": "2026-04-01T21:04:01.131644+00:00",
+    "session_state": {
+      "energy_checkin": "high",
+      "sessions_completed": 3,
+      "last_session_at": "2026-04-01T21:04:01.131630+00:00"
+    },
+    "concept_map": {
+      "digital_signatures": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "cryptography_introduction": {
+        "evidence_summary": "Student showed genuine Level 5 independence early (encryption definition, hash/encryption distinction), then regressed into a key-as-hash misconception requiring multiple scaffolding steps to resolve, closing with passive acknowledgment. Trajectory was declining after the early peak — the session probed deeper and the student's independent understanding did not hold.",
+        "confidence": 0.28,
+        "status": "weak",
+        "source_notes": "Can articulate what encryption does (transforms text irreversibly-for-outsiders) and correctly distinguishes it from hashing, but formed a confused model of what a key *is* — twice described the key as a hash, and could only abandon this framing through scaffolding, not through independent reasoning. Next session should ask the student to define 'chave criptográfica' in their own words before any new material, specifically probing whether they can separate the key (parameter) from the transformation (algorithm) without prompting."
+      },
+      "crypto_wallets": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "symmetric_cryptography": {
+        "evidence_summary": "Only one substantive engagement — a Level 1 echo of the Companion's definition of 'simétrica.' Student explicitly could not engage with the key-distribution problem. No independent reasoning demonstrated on this concept.",
+        "confidence": 0.15,
+        "status": "weak",
+        "source_notes": "Symmetric cryptography was introduced and immediately defined by the Companion; student echoed the definition without demonstrating understanding. Could not engage with the key-exchange problem at all. Next session should ask the student to explain what symmetric cryptography is and why it has a fundamental limitation, before any scaffolding — this will reveal whether the echo-level exposure produced any retention."
+      },
+      "distributed_hash_tables": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "ethereum_platform": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "byzantine_generals_problem": {
+        "evidence_summary": "Student produced two Level 5 responses without scaffolding: independently arrived at the majority-threshold intuition, and invoked the 2/3 threshold by name before the Companion stated it. Also independently identified financial incentive as the motive for Byzantine behavior. One passive acknowledgment moment mid-session was the weakest point. Trajectory improved across the session.",
+        "confidence": 0.45,
+        "status": "shaky",
+        "source_notes": "Independently invoked the 2/3 threshold and identified financial incentives as the driver of dishonest behavior — both unprompted. Did not demonstrate the procedural mechanics (how a BFT algorithm actually produces consensus across rounds), and the 1/3 fault tolerance limit was supplied by the Companion rather than derived by the student. Next session should ask the student to work through a four-node example with one traitor to test whether the threshold reasoning transfers to procedure."
+      },
+      "sequence_diagrams": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "p2p_networks": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "hash_functions": {
+        "evidence_summary": "One Level 5 moment early (independent correct statement that hashes cannot be reversed), with no further coverage of the concept in this session. No opportunity to assess depth, mechanism, or properties beyond directionality.",
+        "confidence": 0.22,
+        "status": "weak",
+        "source_notes": "Correctly and independently stated that hashes are irreversible, which is an improvement over the prior sessions where this was confused. However, prior profile notes the student cannot explain *why* hashes are irreversible — that gap was not addressed this session. Next session should open by asking the student to explain what a hash function does and why it cannot be reversed, before introducing any new cryptography material."
+      },
+      "smart_contracts": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "tor_and_anonymity": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "distributed_system_architectures": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "computer_networks_fundamentals": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "bitcoin_as_case_study": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "ipfs_and_nfts": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "solidity_mappings": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "evm_and_virtualization": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "consensus_mechanisms": {
+        "evidence_summary": "Student could not arrive at PoW or PoS independently (Level 2 early, required the Companion to introduce both). After introduction, demonstrated Level 5 reasoning: correctly connected fraud attempts to economic loss across both mechanisms, and independently mapped PoW vs. PoS trade-offs including the PoS centralization concern. Trajectory improved from scaffolded start to independent analysis after concept introduction.",
+        "confidence": 0.4,
+        "status": "shaky",
+        "source_notes": "Could not generate the PoW/PoS mechanisms without the Companion introducing them, but once introduced, correctly identified the PoS centralization-of-power concern independently — a non-trivial insight. Summary of PoS as 'mais rede, mais poder' slightly imprecise (stake, not network size). Next session should test whether the student can name and explain both mechanisms from scratch, and ask them to construct a scenario where PoS centralization creates a specific problem."
+      },
+      "information_security_fundamentals": {
+        "evidence_summary": "Level 5 on integrity, authentication, and confidentiality (all independent, all unprompted); Level 6 on the self-generated hash-dependency model; Level 3 recovery on hash verification after an incorrect inversion assumption. Trajectory improved from one scaffolded moment to consistent independence. Weak misconception about hash invertibility was functionally resolved but not theoretically explained.",
+        "confidence": 0.48,
+        "status": "shaky",
+        "source_notes": "Independently named all three pillars of the CIA triad and described digital signatures correctly. Constructed an original conceptual model of hash-like character dependency. Does not understand *why* hash functions are one-directional — accepted the correction procedurally and applied it correctly in the blockchain section, but could not explain the theoretical basis. Next session should open by asking the student to explain why hashes cannot be reversed."
+      },
+      "mining": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "blockchain_trilemma": {
+        "evidence_summary": "One strong Level 5 moment (independently traced scalability → synchronization risk → security risk), followed by a weak persisting misconception (decentralization reduces security via reversibility framing), followed by Level 2 scaffolded recovery. Trajectory mixed; the misconception was corrected by the Companion but not resolved by the student.",
+        "confidence": 0.28,
+        "status": "weak",
+        "source_notes": "Conflated decentralization with reduced security by importing the reversibility framing from prior sessions — stated 'descentralização = falta de segurança,' which inverts the correct relationship. Companion corrected this, but the student's recovery was a scaffolded echo. Can trace the scalability-security tension independently but does not yet have a stable model of where decentralization sits in the trilemma. Next session should ask the student to explain the trilemma in their own words before any scaffolding, specifically probing the decentralization-scalability (not security) link."
+      },
+      "game_theory_and_trust": {
+        "evidence_summary": "Student produced Level 5 reasoning on detection probability independently, reached penalty logic after one scaffolded prompt, and generated a compressed but accurate synthesis ('o desonesto sai no prejuízo') that qualifies as Level 6 — their own formulation of the rational-choice incentive structure. Trajectory improved; the generative closing synthesis is the strongest signal.",
+        "confidence": 0.5,
+        "status": "shaky",
+        "source_notes": "Student synthesized the game-theoretic incentive logic independently as 'o desonesto sai no prejuízo' — a correct compressed formulation that was their own, not the Companion's phrasing. Reasoning about penalty was only partially arrived at independently (required one scaffolding prompt to reach the economic cost angle). Next session should probe whether the student can articulate the distinction between 'hard to get away with' (detection) and 'not worth trying' (economic penalty) as separate mechanisms, since the session showed the student defaults to the detection framing first."
+      },
+      "software_testing_and_quality": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "hash_tables": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "blockchain_types": {
+        "evidence_summary": "Level 5 on public/private distinctions and the absence of proof-of-work in permissioned chains; Level 6 on the hybrid model — student independently generated the central bank digital currency use case (Real Digital), which the Companion confirmed as accurate. One Level 2 moment (imprecise framing of permissioned blockchain as 'auditors validating before upload') but followed by continued independent performance.",
+        "confidence": 0.54,
+        "status": "shaky",
+        "source_notes": "Generated the CBDC use case for consortium blockchain independently and accurately. Correctly identified that permissioned chains gain computational efficiency by removing proof of work. Framing of permissioned blockchain as 'pre-upload auditor validation' rather than 'restricted write access' suggests the structural definition may be slightly imprecise — next session should ask the student to define the three types in their own words before any scaffolding to verify the distinctions held."
+      },
+      "proof_of_work": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "asymmetric_cryptography": {
+        "evidence_summary": "Multiple Level 5 moments across the second half of the session (symmetric vs. asymmetric distinction, key-distribution mechanism, paired-key generalization), with a partially-scaffolded arrival on the signature direction and one corrected surface error on the combined sigilo+autenticidade scenario. Trajectory was improving with strongest evidence in the latter half.",
+        "confidence": 0.4,
+        "status": "shaky",
+        "source_notes": "Can explain the symmetric/asymmetric distinction and the key-distribution solution independently and in own words. Formed a correct paired-key generalization ('ambas as chaves podem ser usadas para criptografar e descriptografar') without prompting. Still confused about when to use each key for authentication vs. confidentiality under novel combined scenarios — inverted remetente/destinatário in the final test and needed correction. Next session should present a fresh authentication-only scenario and ask the student to reason through which keys to use before any scaffolding, to test whether the paired-key model is stable."
+      },
+      "blockchain_fundamentals": {
+        "evidence_summary": "Session opened with a direct test of the prior session's noted gap (PoW cost mechanism). Student produced Level 1 restatement of the chain-break effect, then a Level 2 response with a reactivated hash-invertibility misconception ('decifrar'), then a Level 2 response with an incorrect target description ('igual ao id do bloco'). All corrections were supplied by the Companion. Trajectory was flat-weak; the prior session score of 0.55 is not supported by this session's evidence.",
+        "confidence": 0.42,
+        "status": "shaky",
+        "source_notes": "The hash invertibility misconception (framing proof-of-work as 'deciphering' a hash) persisted from Session 1 and reappeared unprompted. Student described the brute-force iteration correctly but named the target incorrectly — 'matching the block ID' rather than 'satisfying a leading-zeros condition.' Next session should ask the student to explain step-by-step what a miner does when solving a block, without any scaffolding, before introducing new material."
+      },
+      "blockchain_dev_tools": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "smart_contract_security": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "distributed_systems_fundamentals": {
+        "evidence_summary": "Multiple Level 5 responses produced independently (consensus, redundancy, institutional trade-offs) and two Level 6 moments (unprompted theory-of-games reference as adversarial framing; original PIX fraud analogy illustrating irreversibility). Trajectory was strongly improving across the session with no evidence of scaffolding dependence.",
+        "confidence": 0.52,
+        "status": "shaky",
+        "source_notes": "Generated the irreversibility trade-off independently using a PIX fraud example, and connected adversarial incentives to game theory without prompting. Can articulate decentralization, redundancy, and irreversibility correctly. Final synthesis ('você ganha segurança e perde suporte') was under-specified relative to earlier reasoning — next session should probe whether the student can articulate the autonomy/reversibility trade-off without the vocabulary being provided."
+      },
+      "solidity_basics": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      },
+      "decentralized_applications": {
+        "evidence_summary": null,
+        "confidence": 0.0,
+        "status": "unseen",
+        "source_notes": null
+      }
+    }
+  }
+}
