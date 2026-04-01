@@ -1,0 +1,217 @@
+{
+  "student_id": "alice_001",
+  "name": "Alice",
+  "module_id": "mod_05_blockchain",
+  "last_updated": "2026-04-01T21:35:02.166870+00:00",
+  "session_state": {
+    "energy_checkin": "high",
+    "sessions_completed": 1,
+    "last_session_at": "2026-04-01T21:35:02.166857+00:00"
+  },
+  "concept_map": {
+    "digital_signatures": {
+      "evidence_summary": null,
+      "confidence": 0.0,
+      "status": "unseen",
+      "source_notes": null
+    },
+    "cryptography_introduction": {
+      "evidence_summary": null,
+      "confidence": 0.0,
+      "status": "unseen",
+      "source_notes": null
+    },
+    "crypto_wallets": {
+      "evidence_summary": null,
+      "confidence": 0.0,
+      "status": "unseen",
+      "source_notes": null
+    },
+    "symmetric_cryptography": {
+      "evidence_summary": null,
+      "confidence": 0.0,
+      "status": "unseen",
+      "source_notes": null
+    },
+    "distributed_hash_tables": {
+      "evidence_summary": null,
+      "confidence": 0.0,
+      "status": "unseen",
+      "source_notes": null
+    },
+    "ethereum_platform": {
+      "evidence_summary": null,
+      "confidence": 0.0,
+      "status": "unseen",
+      "source_notes": null
+    },
+    "byzantine_generals_problem": {
+      "evidence_summary": null,
+      "confidence": 0.0,
+      "status": "unseen",
+      "source_notes": null
+    },
+    "sequence_diagrams": {
+      "evidence_summary": null,
+      "confidence": 0.0,
+      "status": "unseen",
+      "source_notes": null
+    },
+    "p2p_networks": {
+      "evidence_summary": null,
+      "confidence": 0.0,
+      "status": "unseen",
+      "source_notes": null
+    },
+    "hash_functions": {
+      "evidence_summary": null,
+      "confidence": 0.0,
+      "status": "unseen",
+      "source_notes": null
+    },
+    "smart_contracts": {
+      "evidence_summary": null,
+      "confidence": 0.0,
+      "status": "unseen",
+      "source_notes": null
+    },
+    "tor_and_anonymity": {
+      "evidence_summary": null,
+      "confidence": 0.0,
+      "status": "unseen",
+      "source_notes": null
+    },
+    "distributed_system_architectures": {
+      "evidence_summary": null,
+      "confidence": 0.0,
+      "status": "unseen",
+      "source_notes": null
+    },
+    "computer_networks_fundamentals": {
+      "evidence_summary": null,
+      "confidence": 0.0,
+      "status": "unseen",
+      "source_notes": null
+    },
+    "bitcoin_as_case_study": {
+      "evidence_summary": null,
+      "confidence": 0.0,
+      "status": "unseen",
+      "source_notes": null
+    },
+    "ipfs_and_nfts": {
+      "evidence_summary": null,
+      "confidence": 0.0,
+      "status": "unseen",
+      "source_notes": null
+    },
+    "solidity_mappings": {
+      "evidence_summary": null,
+      "confidence": 0.0,
+      "status": "unseen",
+      "source_notes": null
+    },
+    "evm_and_virtualization": {
+      "evidence_summary": null,
+      "confidence": 0.0,
+      "status": "unseen",
+      "source_notes": null
+    },
+    "consensus_mechanisms": {
+      "evidence_summary": null,
+      "confidence": 0.0,
+      "status": "unseen",
+      "source_notes": null
+    },
+    "information_security_fundamentals": {
+      "evidence_summary": "All evidence moments were Level 5 or Level 6 (no scaffolding required at any point), with the student independently invoking the avalanche effect — a technical concept the Companion had not introduced — as the mechanism behind hash-based integrity. Trajectory was flat at a high level throughout.",
+      "confidence": 0.62,
+      "status": "shaky",
+      "source_notes": "Demonstrated strong prior familiarity with hash functions (including the avalanche effect) and independently connected confidentiality, integrity, and authenticity to cryptographic mechanisms before they were introduced. Next session should open by asking the student to explain how hash functions specifically guarantee integrity in a multi-node system — without scaffolding — to confirm whether the hash-integrity link is durably understood or was a retrieval of surface-level vocabulary."
+    },
+    "mining": {
+      "evidence_summary": null,
+      "confidence": 0.0,
+      "status": "unseen",
+      "source_notes": null
+    },
+    "blockchain_trilemma": {
+      "evidence_summary": null,
+      "confidence": 0.0,
+      "status": "unseen",
+      "source_notes": null
+    },
+    "game_theory_and_trust": {
+      "evidence_summary": null,
+      "confidence": 0.0,
+      "status": "unseen",
+      "source_notes": null
+    },
+    "software_testing_and_quality": {
+      "evidence_summary": null,
+      "confidence": 0.0,
+      "status": "unseen",
+      "source_notes": null
+    },
+    "hash_tables": {
+      "evidence_summary": null,
+      "confidence": 0.0,
+      "status": "unseen",
+      "source_notes": null
+    },
+    "blockchain_types": {
+      "evidence_summary": "Consistent Level 5 responses throughout — correct labels for all three types, appropriate use cases, and independent reasoning about the regulatory motivation for consortium models. No scaffolding required. No Level 6 evidence (no novel analogies or unprompted connections).",
+      "confidence": 0.5,
+      "status": "shaky",
+      "source_notes": "Can correctly identify and differentiate public, private, and consortium blockchains and articulate use cases for each. Provided independent reasoning about access control in regulated industries. Next session should probe whether the student understands the tradeoffs between types (e.g., what is sacrificed in a private blockchain compared to a public one) rather than just their definitions and use cases."
+    },
+    "proof_of_work": {
+      "evidence_summary": null,
+      "confidence": 0.0,
+      "status": "unseen",
+      "source_notes": null
+    },
+    "asymmetric_cryptography": {
+      "evidence_summary": null,
+      "confidence": 0.0,
+      "status": "unseen",
+      "source_notes": null
+    },
+    "blockchain_fundamentals": {
+      "evidence_summary": "Level 6 evidence present — student independently produced the full block structure (hash + previous hash + data + timestamp) plus the chain-integrity rationale without any scaffolding or prior Companion framing. Consistent Level 5 elsewhere. No scaffolding required at any point in this section.",
+      "confidence": 0.6,
+      "status": "shaky",
+      "source_notes": "Independently constructed the complete block structure and articulated why chaining creates tamper-evidence before the Companion confirmed it. Can explain that falsifying one block requires altering all subsequent blocks. Next session should test whether the student can articulate what makes simultaneous alteration across all nodes difficult — this is the step the Companion added after her answer — to probe the depth of the distributed-immutability link."
+    },
+    "blockchain_dev_tools": {
+      "evidence_summary": null,
+      "confidence": 0.0,
+      "status": "unseen",
+      "source_notes": null
+    },
+    "smart_contract_security": {
+      "evidence_summary": null,
+      "confidence": 0.0,
+      "status": "unseen",
+      "source_notes": null
+    },
+    "distributed_systems_fundamentals": {
+      "evidence_summary": "Multiple Level 5 independent responses throughout (version conflict, availability risk, motivation for decentralization) and one clear Level 6 moment (self-generated 'gold mine' attack-target analogy). One scaffolded definition impasse mid-session was resolved independently by session close. Trajectory improved across the session.",
+      "confidence": 0.52,
+      "status": "shaky",
+      "source_notes": "Independently identified availability and single-point-of-attack risks, and constructed the core motivation for decentralization without prompting. Initial definition omitted ongoing inter-node communication, was corrected with one scaffolding prompt, and was reproduced correctly at session end. Next session should test whether the student can explain what 'coordination without a center' means in practice — e.g., what happens when two nodes disagree — to probe the depth of the consensus concept she touched on but did not fully develop."
+    },
+    "solidity_basics": {
+      "evidence_summary": null,
+      "confidence": 0.0,
+      "status": "unseen",
+      "source_notes": null
+    },
+    "decentralized_applications": {
+      "evidence_summary": null,
+      "confidence": 0.0,
+      "status": "unseen",
+      "source_notes": null
+    }
+  }
+}
