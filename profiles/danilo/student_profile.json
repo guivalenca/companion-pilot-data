@@ -2,11 +2,11 @@
   "student_id": "danilo_001",
   "name": "Danilo",
   "module_id": "mod_05_blockchain",
-  "last_updated": "2026-04-01T21:59:35.560674+00:00",
+  "last_updated": "2026-04-02T01:24:35.352812+00:00",
   "session_state": {
     "energy_checkin": "high",
-    "sessions_completed": 4,
-    "last_session_at": "2026-04-01T21:59:35.560659+00:00"
+    "sessions_completed": 5,
+    "last_session_at": "2026-04-02T01:24:35.352802+00:00"
   },
   "concept_map": {
     "digital_signatures": {
@@ -34,10 +34,10 @@
       "source_notes": "Symmetric cryptography was introduced and immediately defined by the Companion; student echoed the definition without demonstrating understanding. Could not engage with the key-exchange problem at all. Next session should ask the student to explain what symmetric cryptography is and why it has a fundamental limitation, before any scaffolding — this will reveal whether the echo-level exposure produced any retention."
     },
     "distributed_hash_tables": {
-      "evidence_summary": null,
-      "confidence": 0.0,
-      "status": "unseen",
-      "source_notes": null
+      "evidence_summary": "First exposure concept with mixed evidence: student independently arrived at hash-based assignment (Level 5) and applied it to the BitTorrent piece-lookup scenario without scaffolding (Level 5), but the consistent hashing ring model was only passively acknowledged and a weak misconception about BitTorrent's purpose (memory distribution vs. bandwidth/availability) was corrected but not confirmed resolved.",
+      "confidence": 0.37,
+      "status": "shaky",
+      "source_notes": "Independently connected hash identity to node responsibility ('the computer with the matching hash stores the book') and applied DHT logic to BitTorrent piece lookup without prompting. Does not have a clear model of the consistent hashing ring — understood it when explained visually but did not engage with it independently. Next session should ask the student to explain how DHT decides which node is responsible for a resource, and what happens when a node leaves the network, before any scaffolding."
     },
     "ethereum_platform": {
       "evidence_summary": null,
@@ -58,10 +58,10 @@
       "source_notes": null
     },
     "p2p_networks": {
-      "evidence_summary": null,
-      "confidence": 0.0,
-      "status": "unseen",
-      "source_notes": null
+      "evidence_summary": "First exposure with Level 5 on P2P structural definition (decentralized, no central server, nodes know neighbors) and a strong Level 5 closing synthesis connecting hash tables → DHT → P2P independently. The bootstrap discovery problem was not independently processed — defaulted to geographic proximity, required Companion correction, and the student confirmed the bootstrap node was their main difficulty for the session.",
+      "confidence": 0.33,
+      "status": "shaky",
+      "source_notes": "Can define P2P correctly and connect it to DHT in their own synthesis. The bootstrap node mechanism — a new node entering a decentralized network via a hardcoded entry point — was not independently understood; the student's geographic-proximity fallback suggests the underlying IP-layer resolution was not grasped. Next session should ask the student to explain how a new node joins a P2P network from scratch, specifically probing the bootstrap mechanism, before introducing any new material."
     },
     "hash_functions": {
       "evidence_summary": "One Level 5 moment early (independent correct statement that hashes cannot be reversed), with no further coverage of the concept in this session. No opportunity to assess depth, mechanism, or properties beyond directionality.",
@@ -88,10 +88,10 @@
       "source_notes": null
     },
     "computer_networks_fundamentals": {
-      "evidence_summary": null,
-      "confidence": 0.0,
-      "status": "unseen",
-      "source_notes": null
+      "evidence_summary": "Strong Level 5 evidence on the conceptual foundations: physical message path, protocol definition, and layering rationale (modularity, separation of concerns) were all produced independently and correctly. Layer-to-function assignments (reliable delivery → Transport, not Application; DHT → Internet, not Link) required scaffolding and were not self-corrected, representing Level 2 moments on specific knowledge.",
+      "confidence": 0.4,
+      "status": "shaky",
+      "source_notes": "Articulated the modularity benefit of layered architecture independently and correctly ('changing one layer doesn't force changes in others'). Consistently misassigns specific functions to layers — placed reliable delivery at Application, DHT at Link — both requiring Companion correction. Next session should present a new scenario (e.g., video streaming) and ask the student to assign which layer handles which aspect before any scaffolding, to test whether the layer-function mapping was retained."
     },
     "bitcoin_as_case_study": {
       "evidence_summary": "Initial incorrect reasoning (PoW necessary even in permissioned chains) was reversed after one scaffolding question, with the student completing the correct reasoning independently — articulating that known identities make PoW unnecessary and that other audit mechanisms suffice. Self-correction was substantive, not just answer replacement, but was triggered by a single prompt rather than arising unprompted.",
@@ -154,10 +154,10 @@
       "source_notes": null
     },
     "hash_tables": {
-      "evidence_summary": null,
-      "confidence": 0.0,
-      "status": "unseen",
-      "source_notes": null
+      "evidence_summary": "First exposure concept with an improving trajectory: initial misconception (linked-list model) was replaced through scaffolded execution (Level 2-3 on linear probing), and the student independently articulated the O(1)-when-no-collisions condition (Level 5) without prompting. The core trade-off (speed vs. collision cost) was grasped independently; the deeper dependency on hash function quality was introduced but not tested.",
+      "confidence": 0.38,
+      "status": "shaky",
+      "source_notes": "Can execute linear probing for insertion and search step-by-step, and independently stated that O(1) performance holds only when collisions are absent. Did not independently identify hash function quality as the fundamental design dependency — that was Companion-supplied. Next session should open by asking the student to describe the hash table mechanism and the conditions under which it is and isn't fast, without scaffolding, to verify retention of the collision-cost trade-off."
     },
     "blockchain_types": {
       "evidence_summary": "Level 5 on public/private distinctions and the absence of proof-of-work in permissioned chains; Level 6 on the hybrid model — student independently generated the central bank digital currency use case (Real Digital), which the Companion confirmed as accurate. One Level 2 moment (imprecise framing of permissioned blockchain as 'auditors validating before upload') but followed by continued independent performance.",
