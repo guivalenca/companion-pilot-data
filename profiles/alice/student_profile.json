@@ -2,18 +2,18 @@
   "student_id": "alice_001",
   "name": "Alice",
   "module_id": "mod_05_blockchain",
-  "last_updated": "2026-04-01T23:53:23.429839+00:00",
+  "last_updated": "2026-04-02T02:16:02.825659+00:00",
   "session_state": {
     "energy_checkin": "high",
-    "sessions_completed": 3,
-    "last_session_at": "2026-04-01T23:53:23.429830+00:00"
+    "sessions_completed": 4,
+    "last_session_at": "2026-04-02T02:16:02.825649+00:00"
   },
   "concept_map": {
     "digital_signatures": {
-      "evidence_summary": null,
-      "confidence": 0.0,
-      "status": "unseen",
-      "source_notes": null
+      "evidence_summary": "Level 5 on the signing flow (message → hash → sign with private key) on first attempt, resolving the prior session's inversion weakness. Level 5 on the guarantees (autenticidade + integridade, with independent reasoning). Two genuine generative questions mid-session (why hash? is plain text risky?). Scaffolded impasse on the verification-side detail — what decrypting the signature yields — required direct Companion explanation and ended in passive acknowledgment rather than independent reconstruction. Trajectory improving overall, with a mid-session dip on the verification internals.",
+      "confidence": 0.42,
+      "status": "shaky",
+      "source_notes": "Alice independently narrated the correct signing flow (hash then sign) and independently articulated both autenticidade and integridade guarantees with reasoning. Weakness: when asked what decrypting the signature yields, she answered 'a pessoa que enviou' and then 'a mensagem' before requiring direct Companion correction — the critical step that the signature decryption yields the original hash was received passively. Next session should ask Alice to narrate the full verification flow without scaffolding — specifically asking: 'After you receive the message and signature, what exactly do you do with the signature first, and what do you get back?'"
     },
     "cryptography_introduction": {
       "evidence_summary": "Multiple Level 6 moments early in the session: Alice volunteered the key-as-lock-and-unlock concept, introduced public/private keys without prompting, and produced an unprompted three-part taxonomy (symmetric/asymmetric/hybrid) that extended beyond the Companion's question. Level 5 evidence on the transformation mechanism (AES-256 reference). Trajectory strongly improving as prior knowledge activated — no decline observed.",
@@ -94,10 +94,10 @@
       "source_notes": null
     },
     "bitcoin_as_case_study": {
-      "evidence_summary": null,
-      "confidence": 0.0,
-      "status": "unseen",
-      "source_notes": null
+      "evidence_summary": "First attempt at the full Bitcoin transaction flow was disordered (miner-side described before sender-side). After scaffolding the correct order, second attempt was substantially better but still contained two errors: hashing only 'the value' rather than the full transaction, and placing signature verification at the recipient rather than at the network nodes. Mempool named correctly and unprompted. Trajectory improved from first to second attempt but residual errors were not self-corrected. Broader applied reasoning about Bitcoin as a system was not tested.",
+      "confidence": 0.25,
+      "status": "weak",
+      "source_notes": "Can assemble the rough Bitcoin transaction flow after scaffolding — sign → mempool → miner selects → PoW → block validation — but the second attempt still had two errors: hashing only the value (not the full transaction) and locating signature verification at the recipient rather than the network. The integrative flow is fragile and has not been demonstrated independently end-to-end. Next session should ask Alice to narrate the full transaction lifecycle — from 'I want to send 1 BTC' to 'confirmed in the blockchain' — without any prompting, and evaluate both ordering and actor attribution (who does what)."
     },
     "ipfs_and_nfts": {
       "evidence_summary": null,
@@ -130,10 +130,10 @@
       "source_notes": "Durably understands that hash functions make single-copy tampering detectable via the avalanche effect, and independently synthesized the combined 51%+hash-cascade barrier to undetected network-wide adulteración. Minor gap: did not independently articulate how nodes identify which copy is correct (cross-node comparison) — required one scaffolded prompt. Next session should probe whether the student can explain the role of cryptographic signatures in authenticating the *source* of a message, not just its integrity — moving toward asymmetric cryptography."
     },
     "mining": {
-      "evidence_summary": null,
-      "confidence": 0.0,
-      "status": "unseen",
-      "source_notes": null
+      "evidence_summary": "Level 5 on block structure elements (previous hash, transactions, timestamp — all first attempt). Level 2 on the nonce identification — confused nonce with hash output, required correction. Level 3 on the post-PoW procedural sequence (transmission → node validation → consensus) — reached correctly with light step-by-step prompting. Level 2 on mining incentives — named 'gas' (Ethereum-specific), required Companion to supply 'block reward' and 'transaction fee' terminology. Flat to mildly improving trajectory; no strong generative moments.",
+      "confidence": 0.32,
+      "status": "shaky",
+      "source_notes": "Can recall block contents (previous hash, transactions, timestamp) independently and correctly. Confusion between nonce (input variable) and hash (output) — answered 'o hash do proprio bloco' when asked what the miner varies. Mining incentive vocabulary was Ethereum-contaminated ('gas'); understands the incentive structure conceptually once correct terms are supplied. Next session should ask Alice to describe what a miner does step by step from an empty mempool to a confirmed block — without prompting — to test whether the full procedural sequence is now retained and whether the nonce/hash distinction has solidified."
     },
     "blockchain_trilemma": {
       "evidence_summary": null,
@@ -166,10 +166,10 @@
       "source_notes": "Can articulate the security/decentralization tradeoff in private blockchains and the 51% attack mechanism after scaffolding; independently explains business and regulatory motivations for private and consortium models. Residual gap: initially framed what private chains sacrifice as 'integrity and confidentiality' rather than decentralization/attack-resistance — did not explain why this framing was wrong. Next session should ask the student to compare two specific scenarios (e.g., a 3-node private chain vs. a 10,000-node public chain) and reason about relative attack costs without prompting, to confirm whether the node-count-to-security intuition is durable."
     },
     "proof_of_work": {
-      "evidence_summary": null,
-      "confidence": 0.0,
-      "status": "unseen",
-      "source_notes": null
+      "evidence_summary": "Level 5 on cost-per-fake-node implication and on the zero-count/difficulty relationship (both first attempt, correct reasoning). Level 2 on the core asymmetry (why finding the nonce is hard but verifying is easy) — required the Companion to redirect through hash irreversibility before Alice reached the right answer, and the asymmetry was not re-demonstrated independently afterward. Level 2 on difficulty adjustment — framed incorrectly as 'more hashes' and required two scaffolding steps to reach the correct answer. Weak persisting misconceptions on nonce-uniqueness framing and difficulty-adjustment rationale. One generative intuition (difficulty drop → Bitcoin value drop) that the Companion set aside for later.",
+      "confidence": 0.3,
+      "status": "weak",
+      "source_notes": "Understands that PoW makes fake-node creation computationally expensive and that requiring more leading zeros increases difficulty — both demonstrated independently. Core asymmetry (irreversibility makes finding hard; single calculation makes verifying easy) was reached only through scaffolding and not independently re-demonstrated. Difficulty adjustment rationale was incorrectly framed as 'more hashes' rather than computational power growth — corrected by Companion but not explained by Alice. Next session should ask: 'If I give you a valid nonce, how long does it take to confirm it works? Why does that contrast with how long it took to find it?' to test whether the asymmetry is now retained."
     },
     "asymmetric_cryptography": {
       "evidence_summary": "Level 6 on the structural mechanics (introduced public/private key taxonomy unprompted); Level 5 on the public/private role assignment. Level 2 on the inverted use (digital signature): required two scaffolding questions after an incorrect answer (anonymity claim). Misconception on anonymity was resolved at surface level — Alice restated the correction without explaining why her original reasoning was wrong. Trajectory uneven: strong start, dip at inverted-use, recovery on IP-identity application.",
