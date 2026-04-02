@@ -2,11 +2,11 @@
   "student_id": "alice_001",
   "name": "Alice",
   "module_id": "mod_05_blockchain",
-  "last_updated": "2026-04-02T02:16:02.825659+00:00",
+  "last_updated": "2026-04-02T02:46:49.575273+00:00",
   "session_state": {
     "energy_checkin": "high",
-    "sessions_completed": 4,
-    "last_session_at": "2026-04-02T02:16:02.825649+00:00"
+    "sessions_completed": 5,
+    "last_session_at": "2026-04-02T02:46:49.575263+00:00"
   },
   "concept_map": {
     "digital_signatures": {
@@ -34,10 +34,10 @@
       "source_notes": "Can define symmetric cryptography accurately and independently situate it within a symmetric/asymmetric/hybrid framework. Correctly identified the key-distribution problem as the core limitation but could not articulate the solution independently. The hybrid key-exchange mechanism (asymmetric wraps symmetric key) was received passively. Next session should ask Alice to walk through — without prompting — how two strangers would establish a symmetric session key over an insecure channel, to test whether the hybrid exchange flow was retained."
     },
     "distributed_hash_tables": {
-      "evidence_summary": null,
-      "confidence": 0.0,
-      "status": "unseen",
-      "source_notes": null
+      "evidence_summary": "Level 5 on the hash-to-node transfer (independently applied local hashing to distributed lookup), Level 6 on XOR/distance metric (volunteered unprompted), and Level 5 on the closing DHT-P2P synthesis. Weak persisting misconception on replication vs. partitioning (received correction passively). Trajectory improving with a strong close.",
+      "confidence": 0.42,
+      "status": "shaky",
+      "source_notes": "Independently transferred hash-table indexing to distributed node lookup and spontaneously introduced XOR as a node-distance metric — both strong signals. The final synthesis correctly described DHT's dependency on P2P for data distribution. Weak gap: when told that pure DHTs partition rather than replicate data, Alice acknowledged passively without demonstrating understanding of the distinction. Next session should ask Alice to explain what happens to data when the node responsible for it goes offline — to test whether the replication/partitioning distinction was retained."
     },
     "ethereum_platform": {
       "evidence_summary": null,
@@ -58,10 +58,10 @@
       "source_notes": null
     },
     "p2p_networks": {
-      "evidence_summary": null,
-      "confidence": 0.0,
-      "status": "unseen",
-      "source_notes": null
+      "evidence_summary": "Predominantly Level 1 evidence through the session, with the bootstrap mechanism received entirely passively after explicit re-explanation. A weak persisting misconception (consensus = network discovery) was redirected but not corrected. Closing synthesis was a genuine Level 5 integration of DHT-P2P dependency, but produced immediately after the Companion's summary re-explanation.",
+      "confidence": 0.25,
+      "status": "weak",
+      "source_notes": "Understands at a high level that P2P means no central coordinator and that nodes connect to each other, and produced a correct closing synthesis linking P2P to DHT data distribution. The bootstrap mechanism — how a new node discovers its first peers — was not understood and was received passively. Conflated network entry with consensus. Next session should ask Alice to explain from scratch how a brand-new Bitcoin node discovers the network, to test whether the bootstrap concept was retained, before testing whether the no-single-point-of-failure rationale is durable."
     },
     "hash_functions": {
       "evidence_summary": "Level 5 across all core properties (one-way, avalanche effect, fixed output) with no scaffolding — all recalled from prior sessions. Level 6 on the SHA-256/AES-256 classification: Alice independently deduced which algorithm belongs to which category based on the conceptual distinction, without being told. Stumble at the synthesis step: produced incorrect hash-signature flow (hash of the signature rather than signature of the hash) and reintroduced the anonymity framing. Recovered to correct synthesis summary after Companion correction. Weak persisting misconception on the integration flow.",
@@ -88,10 +88,10 @@
       "source_notes": null
     },
     "computer_networks_fundamentals": {
-      "evidence_summary": null,
-      "confidence": 0.0,
-      "status": "unseen",
-      "source_notes": null
+      "evidence_summary": "Mid-session evidence was primarily Level 2 (scaffolded via analogy) with one misconception (encryption = ordered delivery guarantee). Closing response was a strong Level 5 integration placing IP+port, TCP, and DHT/blockchain in correct functional hierarchy. Trajectory weak-to-strong with a late upturn.",
+      "confidence": 0.35,
+      "status": "shaky",
+      "source_notes": "Produced a correct independent integration of IP+port (addressing), TCP (ordered delivery), and DHT/blockchain (application layer) at session close. Earlier in the session conflated encryption with delivery guarantees — this was redirected via analogy but never explicitly corrected, and Alice did not articulate why encryption is insufficient for ordering. Next session should ask Alice to explain, without prompting, what TCP does that IP alone cannot — to test whether the delivery/addressing distinction is retained and to surface whether the encryption conflation has resolved."
     },
     "bitcoin_as_case_study": {
       "evidence_summary": "First attempt at the full Bitcoin transaction flow was disordered (miner-side described before sender-side). After scaffolding the correct order, second attempt was substantially better but still contained two errors: hashing only 'the value' rather than the full transaction, and placing signature verification at the recipient rather than at the network nodes. Mempool named correctly and unprompted. Trajectory improved from first to second attempt but residual errors were not self-corrected. Broader applied reasoning about Bitcoin as a system was not tested.",
@@ -154,10 +154,10 @@
       "source_notes": null
     },
     "hash_tables": {
-      "evidence_summary": null,
-      "confidence": 0.0,
-      "status": "unseen",
-      "source_notes": null
+      "evidence_summary": "Multiple Level 5 moments (three correct hash computations and an independent linear probing inference) with a prompted but correctly integrated closing summary in the student's own words. Trajectory improving throughout; no misconceptions identified.",
+      "confidence": 0.45,
+      "status": "shaky",
+      "source_notes": "Can execute the hash-computation-to-index procedure correctly and independently (demonstrated three times), and independently inferred linear probing as a collision strategy before being told its name. The closing summary correctly integrated computation, lookup, and fallback. Gap: the lookup fallback during search (why you continue past a collision during retrieval, not just insertion) was stated tersely ('i+1') without explanation. Next session should ask Alice to walk through what happens when you search for a key that collided — step by step — to confirm the retrieval logic is understood, not just the insertion logic."
     },
     "blockchain_types": {
       "evidence_summary": "Early responses on the private blockchain tradeoff were scaffolded and one was incorrect (proposing integrity/confidentiality as what private chains sacrifice). Trajectory improved through the session, with independent Level 5 responses on 51% attack exploitation, the business rationale for private chains, and the consortium balance. The targeted tradeoff probe from the prior session was addressed but required scaffolding to reach.",
